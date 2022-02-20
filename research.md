@@ -2,6 +2,12 @@
 layout: page
 ---
 
+show_social: true          # show site description and social links in the footer
+show_excerpts: false        # show article excerpts on the home page
+show_frame: true          # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
 **Publications**
 - **Tolerance of Informality in a Large Informal Sector Economy**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://orcid.org/0000-0001-6715-6753). _The BE Journal of Macroeconomics_ (forthcoming)
 - **Monetary policy, commodity prices and credit in Brazil**, joint with José Rocha and Átila Brilhante. _Theoretical Economics Letters_ (forthcoming)
