@@ -25,7 +25,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Github, icon: github, url: "https://github.com/marcosrenan "}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/mrvmagalhaes"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/marcos-renan-vasconcelos-magalhaes/"}
-  - {title: Spotify Playlist, icon: spotify, url: "spoti.fi/3kHLEoH"}
+  - {title: Spotify Playlist, icon: spotify, url: "https://open.spotify.com/playlist/0RXJLg5P73W8FQ78ivTCK6?si=e3123b8b89a84bb3"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
