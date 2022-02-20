@@ -9,5 +9,5 @@ layout: page
 
 
 **Works in Progress**:
-- asdf
+- The economic and social consequences of the government of Nicolás Maduro in Venezuela: an approach of synthetic control method, joint with Guilherme Irffi and Georgeana Silveira
 
