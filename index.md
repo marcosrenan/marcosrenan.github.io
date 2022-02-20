@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "**Welcome to my homepage!**"
 ---
 
-PhD candidate in Economics at [CAEN-UFC](www.caen.ufc.br). Avid reader and lover of surfing and classical music.
+I am a PhD candidate in Economics at [CAEN-UFC](www.caen.ufc.br). I am actually working at the Institute Center for Technological Studies as Researcher. I am an avid reader and lover of surfing and classical music.
