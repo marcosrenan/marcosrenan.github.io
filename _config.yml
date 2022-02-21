@@ -1,13 +1,14 @@
 title: "Marcos Renan V. Magalhães"
 author: "Marcos Renan V. Magalhães"
 description: "Marcos Renan V. Magalhães"
+email: "marcosrenan@caen.ufc.br"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-avatar: "renan.jpeg"
-page-img: "renan.jpeg"
+use_logo: true
+logo: "renan.jpeg"
 
 # Layout
 
