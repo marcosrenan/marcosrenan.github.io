@@ -6,6 +6,8 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
+page-img: "renan.jpge"
+
 # Layout
 
 show_social: true         # show site description and social links in the footer
