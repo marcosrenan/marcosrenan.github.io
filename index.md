@@ -12,5 +12,5 @@ I am a PhD candidate in Economics at [CAEN-UFC](www.caen.ufc.br). I am actually 
 - Labor Economics
 - Development
 
-![An image](renan.jpeg){width=250px}
+![An image](renan.jpeg = 250x)
 
