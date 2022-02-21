@@ -4,7 +4,7 @@ description: "Marcos Renan V. Magalhães (marcosrenan@caen.ufc.br)"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
-date_format: "%B %d
+date_format: "%B %d, %Y"
 
 # Layout
 
