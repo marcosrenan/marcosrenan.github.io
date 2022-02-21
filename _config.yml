@@ -19,7 +19,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}  
   - {title: "CV", url: "https://drive.google.com/file/d/1bnsBEFKdYQGsgfs_IPfpNLqDpT7VZoqt/view?usp=sharing", icon: address-card}
-  - {title: "Research", file: "research.md", icon: nerd}
+  - {title: "Research", file: "research.md", icon: read}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:marcosrenan@caen.ufc.br"}
