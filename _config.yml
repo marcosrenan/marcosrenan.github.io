@@ -19,7 +19,7 @@ minimal: true
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}  
-  - {title: "CV", file: "mr_cv.pdf"}
+  - {title: "CV", url: "https://drive.google.com/file/d/1bnsBEFKdYQGsgfs_IPfpNLqDpT7VZoqt/view?usp=sharing"}
   - {title: "Research", file: "research.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
