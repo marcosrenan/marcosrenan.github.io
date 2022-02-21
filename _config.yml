@@ -1,6 +1,7 @@
 title: "Marcos Renan V. Magalhães"
 author: "Marcos Renan V. Magalhães"
-description: "Marcos Renan V. Magalhães (marcosrenan@caen.ufc.br)"
+description: "Marcos Renan V. Magalhães"
+e-mail: "marcosrenan@caen.ufc.br"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -22,7 +23,6 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Research", file: "research.md", icon: glasses}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: E-mail, icon: envelope, url: "mailto:marcosrenan@caen.ufc.br"}
   - {title: Github, icon: github, url: "https://github.com/marcosrenan "}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/mrvmagalhaes"}
   - {title: Instagram, icon: instagram, url: "https://www.instagram.com/marcosrenan/"}
