@@ -13,4 +13,4 @@ I am a PhD candidate in Economics at [CAEN-UFC](www.caen.ufc.br). I am actually 
 - Development
 
 
-<img src="renan.jpeg" width="200">
+<img src="renan.jpeg" width="200" style="float:right">
