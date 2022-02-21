@@ -23,7 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Research", file: "research.md", icon: glasses}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:marcosrenan@caen.ufc.br"}
+ # - {title: Mail, icon: envelope, url: "mailto:marcosrenan@caen.ufc.br"}
   - {title: Github, icon: github, url: "https://github.com/marcosrenan "}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/mrvmagalhaes"}
   - {title: Instagram, icon: instagram, url: "https://www.instagram.com/marcosrenan/"}
