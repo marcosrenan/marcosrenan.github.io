@@ -1,6 +1,6 @@
 title: "Marcos Renan V. Magalhães"
 author: "Marcos Renan V. Magalhães"
-description: "Marcos Renan V. Magalhães"
+description: " "
 e-mail: "marcosrenan@caen.ufc.br"
 permalink: /:title/
 lang: "en"
@@ -19,8 +19,8 @@ minimal: true
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}  
-  - {title: "CV", url: "https://drive.google.com/file/d/1bnsBEFKdYQGsgfs_IPfpNLqDpT7VZoqt/view?usp=sharing", icon: address-card}
-  - {title: "Research", file: "research.md", icon: newspaper}
+  - {title: "CV", file: "mr_cv.pdf"}
+  - {title: "Research", file: "research.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/marcosrenan "}
