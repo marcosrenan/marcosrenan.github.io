@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}  
-  - {title: "CV", file:  "https://github.com/marcosrenan/marcosrenan.github.io/blob/c1400a8d8ddef0b363b88d85b8b9edc7168ea4c8/mr_cv.pdf", icon: address-card}
+  - {title: "CV", url: "https://drive.google.com/file/d/1bnsBEFKdYQGsgfs_IPfpNLqDpT7VZoqt/view?usp=sharing", icon: address-card}
   - {title: "Research", file: "research.md", icon: nerd}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
