@@ -5,10 +5,7 @@ email: "marcosrenan@caen.ufc.br"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-use_logo: true
-logo: "renan.jpeg"
+date_format: "%B %d
 
 # Layout
 
