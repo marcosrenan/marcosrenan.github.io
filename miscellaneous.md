@@ -8,4 +8,4 @@ minimal: false             # use a dark header
 ---
 
 **Presentations**
-- **[Economic Conjuncture and Public Finance]**(https://drive.google.com/file/d/153GqzgeOiW4Y_JyjyPNeIUAnSZNLyPW4/view?usp=sharing), for R. Saldanha Advocacia Corporativa (March 16th, 2022)
+- **[Economic Conjuncture and Public Finance]**(https://drive.google.com/file/d/153GqzgeOiW4Y_JyjyPNeIUAnSZNLyPW4/view?usp=sharing), for R. Saldanha Advocacia Corporativa in March 16th, 2022 (in Portuguese)
