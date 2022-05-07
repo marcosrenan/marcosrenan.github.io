@@ -12,4 +12,4 @@ minimal: false             # use a dark header
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/1545m9MkNEEqNXH78bco8TKljIC_U4gxL/view?usp=sharing)**, for Podemos Political Party on November 20th, 2019 (in Portuguese)
 
 **Interviews**
-- **Political chat and prospects for the economy of Ceará in 2022**: [part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y) [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI)
+- **Political chat and prospects for the economy of Ceará in 2022 ([part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y), [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI))**, for Jornal Alerta Geral on January 3rd, 2022 (in Portuguese)
