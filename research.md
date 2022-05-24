@@ -13,5 +13,5 @@ minimal: false             # use a dark header
 - **[A BVAR Analysis on Channels of Monetary Policy Transmission in Brazil](https://doi.org/10.5539/ijef.v14n3p19)**, joint with José Rocha and Átila Brilhante. _International Journal of Economics and Finance_, v. 14, n. 3, 19-32, 2022.
 
 **Works in Progress**
-- **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with Guilherme Irffi and Georgeana Silveira [[_current version (in portuguese)_]](https://drive.google.com/file/d/1GNOAQUIVO-VHNNJ8IVENXIPTgct9CyDW/view?usp=sharing)
+- **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with Guilherme Irffi and Georgeana Silveira [[current version]](https://drive.google.com/file/d/1GNOAQUIVO-VHNNJ8IVENXIPTgct9CyDW/view?usp=sharing)
 
