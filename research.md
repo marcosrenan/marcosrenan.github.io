@@ -7,7 +7,7 @@ show_sidebar: true         # show a sidebar instead of the usual header
 minimal: false             # use a dark header
 ---
 
-**Publications**
+**Papers in Refereed Journals**
 - **[Tolerance of Informality and Occupational Choices in a Large Informal Sector Economy](https://doi.org/10.1515/bejm-2021-0076)**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://orcid.org/0000-0001-6715-6753). _The BE Journal of Macroeconomics_ (Ahead of Print)  
 <sub>This paper was presented at the 42nd Meeting of the Brazilian Society of Econometrics, 2021 Canadian Economics Association and 2020 Economics of Informality Conference (Universidad del Rosario).<sub>
 - **[Monetary policy, commodity prices and credit in Brazil: A SVAR Approach](https://doi.org/10.4236/tel.2022.122024)**, joint with José Rocha and Átila Brilhante. _Theoretical Economics Letters_, v. 12, n. 2, 434-450, 2022.  
