@@ -15,6 +15,6 @@ minimal: false             # use a dark header
 - **[A BVAR Analysis on Channels of Monetary Policy Transmission in Brazil](https://doi.org/10.5539/ijef.v14n3p19)**, joint with José Rocha and Átila Brilhante. _International Journal of Economics and Finance_, v. 14, n. 3, 19-32, 2022.  
 <sub>This paper was presented at the 2021 Winter School organized by the Centre for Development Economics (CDE) jointly with the Econometric Society at the Delhi School of Economics.<sub>
   
-**Works in Progress**
+**Works in Progress** (coming soon)
 - **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with Guilherme Irffi and Georgeana Silveira [[current version]](https://drive.google.com/file/d/1GNOAQUIVO-VHNNJ8IVENXIPTgct9CyDW/view?usp=sharing)
 
