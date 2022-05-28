@@ -16,5 +16,5 @@ minimal: false             # use a dark header
 <sub>This paper was presented at the 2021 Winter School organized by the Centre for Development Economics (CDE) jointly with the Econometric Society at the Delhi School of Economics.<sub>
   
 **Works in Progress**
-- **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with Guilherme Irffi and Georgeana Silveira [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
-
+- **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with Guilherme Irffi and Georgeana Silveira [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)  
+<sub>Submitted to _Development and Change_ (under review)<sub>  
