@@ -17,3 +17,4 @@ minimal: false             # use a dark header
   
 **Works in Progress**
 - **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with Guilherme Irffi and Georgeana Silveira [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
+- **A BVAR note on the J-curve and the Marshall-Lerner condition for Brazil**, joint with José Rocha and Átila Brilhante [[current version]](  https://drive.google.com/file/d/1HCEZlJ5yfyBHYXKvHt2AbTAONdyZnCnZ/view?usp=sharing)
