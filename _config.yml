@@ -30,7 +30,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Instagram, icon: instagram, url: "https://www.instagram.com/marcosrenan/"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/marcos-renan-vasconcelos-magalhaes/"}
   - {title: Research Gate, icon: researchgate, url: "https://www.researchgate.net/profile/Marcos-Vasconcelos-Magalhaes"}
-  - {title: Google Scholar, icon: scholar, url: "https://scholar.google.com.br/citations?user=4NobnxIAAAAJ&hl=pt-BR"}
+  - {title: Google Scholar, icon: graduation-cap, url: "https://scholar.google.com.br/citations?user=4NobnxIAAAAJ&hl=pt-BR"}
   - {title: Spotify Playlist, icon: spotify, url: "https://open.spotify.com/playlist/0RXJLg5P73W8FQ78ivTCK6?si=e3123b8b89a84bb3"}
   - {title: Youtube, icon: youtube, url: "https://www.youtube.com/channel/UCFalNfBWWI4GaayT1QHOjOA"}
 
