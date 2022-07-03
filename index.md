@@ -9,7 +9,7 @@ I am a PhD candidate in Economics at [CAEN-UFC](https://caen.ufc.br). I am curre
 **Research Interests**:
 
 - Macroeconomics 
-- Labor Economics
 - Development
+- Computational Economics
 
 <img src="renan.jpeg" width="200" style="float:right">
