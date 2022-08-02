@@ -15,4 +15,4 @@ minimal: false             # use a dark header
 - **Political chat and prospects for the economy of Ceará in 2022 ([part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y), [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI))**, for Jornal Alerta Geral on January 3rd, 2022 (in Portuguese)
 
 **Courses**
-- **[Matlab for Economists](https://youtube.com/playlist?list=PL1RzT_V0r_GSz6XzNW-1eGdAArKlgShwh)**, taught for the postgraduate course in economics at the Federal University of Ceará (in Portuguese)
+- **[Matlab for Economists](https://youtube.com/playlist?list=PL1RzT_V0r_GSz6XzNW-1eGdAArKlgShwh)**, taught for the postgraduate course in economics at the Federal University of Ceará in 2022 (in Portuguese)
