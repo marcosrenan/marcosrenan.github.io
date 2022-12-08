@@ -3,7 +3,7 @@ layout: page
 title: "Welcome to my homepage!"
 ---
 
-I am a PhD candidate in Economics at [CAEN-UFC](https://caen.ufc.br). I am currently working at the Center of Technological Studies (Centec) as an Economic Researcher Analyst in Fortaleza/Brazil. I am an avid reader and lover of surfing and classical music.
+I am a PhD candidate in Economics at [CAEN-UFC](https://caen.ufc.br). I am currently working at the Center of Technological Studies (Centec) as an Economic Researcher Analyst in Fortaleza/Brazil. I look for simple model solutions to real world problems.
 
 
 **Research Interests**:
