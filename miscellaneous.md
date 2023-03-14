@@ -16,3 +16,5 @@ minimal: false             # use a dark header
 
 **Courses**
 - **[Matlab for Economists](https://youtube.com/playlist?list=PL1RzT_V0r_GSz6XzNW-1eGdAArKlgShwh)**, taught for the postgraduate course in economics at the Federal University of Ceará in 2022 (in Portuguese)
+- **[Statistics](https://www.youtube.com/playlist?list=PL1RzT_V0r_GQ6VMs8F_kjqLlaKxYHNLn6)**, taught for the undergraduate course in economics at the Federal University of Ceará in 2020 (in Portuguese)
+- **[Economics of Public Sector](https://www.youtube.com/playlist?list=PL1RzT_V0r_GSgX6PrRotiJt7hnJXrFVzk)**, taught for the undergraduate course in economics at the Federal University of Ceará in 2020 (in Portuguese)
