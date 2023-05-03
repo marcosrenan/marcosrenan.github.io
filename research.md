@@ -19,3 +19,10 @@ minimal: false             # use a dark header
 - **The Role of Corruption in a Simple Growth Model**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://orcid.org/0000-0001-6715-6753).
 - **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with Guilherme Irffi and Georgeana Silveira. [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
 - **A BVAR note on the J-curve and the Marshall-Lerner condition for Brazil**, joint with José Rocha and Átila Brilhante. [[current version]](  https://drive.google.com/file/d/1HCEZlJ5yfyBHYXKvHt2AbTAONdyZnCnZ/view?usp=sharing) [submitted]
+ 
+**Other Publications (Case Studies, Policy Papers, Book Chapters)**
+- **[Identificação, Mapeamento e Caracterização Estrutural de Arranjos Produtivos Locais por Região de Planejamento no Estado do Ceará](https://www.researchgate.net/publication/370465448_Identificacao_Mapeamento_e_Caracterizacao_Estrutural_de_Arranjos_Produtivos_Locais_por_Regiao_de_Planejamento_no_Estado_do_Ceara)**, joint with [Jair do Amaral Filho](http://jairdoamaralfilho.ecn.br), [Elda Fontinele Tahim](https://orcid.org/0000-0002-4135-7714), [Felipe Pinto da Silva](https://www.researchgate.net/profile/Felipe-Silva-8), [Ivna Carolinne Bezerra Machado](https://www.researchgate.net/profile/Ivna-Machado), [Francisco Laércio Pereira Braga](http://lattes.cnpq.br/7076516474858419), [José Carlos Souza Lima](https://www.researchgate.net/profile/Jose-Carlos-Souza-Lima) and [Paulo Icaro Barros Rodrigues da Costa](http://lattes.cnpq.br/6035192545586106). 
+
+  
+  
+  
