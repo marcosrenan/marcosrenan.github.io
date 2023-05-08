@@ -16,7 +16,7 @@ minimal: false             # use a dark header
   
 **Works in Progress**
 - **The Role of Corruption in a Simple Growth Model**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://orcid.org/0000-0001-6715-6753).
-- **Análises da Nova Matriz Econômica (NME) brasileira sobre o Setor Informal (%PIB) e o PIB per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Leonardo Machado.
+- **Análises da Nova Matriz Econômica (NME) brasileira sobre o Setor Informal (%PIB) e o PIB per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Leonardo Machado. [submitted]
 - **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Georgeana Silveira. [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
 - **A BVAR note on the J-curve and the Marshall-Lerner condition for Brazil**, joint with José Rocha and Átila Brilhante. [[current version]](  https://drive.google.com/file/d/1HCEZlJ5yfyBHYXKvHt2AbTAONdyZnCnZ/view?usp=sharing) [submitted]
  
