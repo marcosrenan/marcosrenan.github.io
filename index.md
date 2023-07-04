@@ -7,4 +7,4 @@ I am a PhD candidate in Economics at [CAEN-UFC](https://caen.ufc.br). I have exp
 
 **Research Interests**: Macroeconomics, Growth, Development
 
-<img src="Renan-mono.jpg" width="200" style="float:right" class="rounded-circle">
+<img src="Renan-mono.jpg" class="rounded-circle" width="200" style="float:right">
