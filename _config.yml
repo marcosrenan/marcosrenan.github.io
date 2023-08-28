@@ -19,7 +19,7 @@ minimal: true
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}  
-  - {title: "CV", url: "https://1drv.ms/b/s!Ankktc22FQd-rU35xTEX_9K9nwFC?e=l9AcAB"}
+  - {title: "CV", url: "https://drive.google.com/file/d/1WVUsiAijTvkKvkaeMoUGxwH1YjtfRu4d/view?usp=share_link"}
 #  - {title: "Lattes", url: "http://lattes.cnpq.br/9146944047583338"}
   - {title: "Research", file: "research.md"}
   - {title: "Miscellaneous", file: "miscellaneous.md"}
