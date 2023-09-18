@@ -12,7 +12,7 @@ minimal: false             # use a dark header
 <sub>This paper was presented at the 2021 Canadian Economics Association Meeting, 42nd Meeting of the Brazilian Society of Econometrics in 2020 and 2020 Economics of Informality Conference (Universidad del Rosario, Bogotá, Colombia).<sub>
 - **[Monetary Policy, Commodity Prices and Credit in Brazil: A SVAR Approach](https://doi.org/10.4236/tel.2022.122024)**, joint with [José Rocha](https://www.researchgate.net/profile/Francisco-Rocha-16) and [Átila Brilhante](http://lattes.cnpq.br/3964055069648793). _Theoretical Economics Letters_, v. 12, n. 2, 434-450, 2022.  
 <sub>This paper was presented at the XXIII Encontro de Economia da Região Sul organized by the Associação Nacional dos Centros de Pós-Graduação em Economia (Anpec).<sub>
-- **[A BVAR Analysis on Channels of Monetary Policy Transmission in Brazil](https://doi.org/10.5539/ijef.v14n3p19)**, joint with [José Rocha](https://www.researchgate.net/profile/Francisco-Rocha-16) and [Átila Brilhante](http://lattes.cnpq.br/3964055069648793). _International Journal of Economics and Finance_, v. 14, n. 3, 19-32, 2022. 
+- **[A BVAR Analysis on Channels of Monetary Policy Transmission in Brazil](https://doi.org/10.5539/ijef.v14n3p19)**, joint with [José Rocha](https://www.researchgate.net/profile/Francisco-Rocha-16) and [Átila Brilhante](http://lattes.cnpq.br/3964055069648793). _International Journal of Economics and Finance_, v. 14, n. 3, 19-32, 2022.  
 <sub>This paper was presented at the 2021 Winter School organized by the Centre for Development Economics (CDE) jointly with the Econometric Society at the Delhi School of Economics, India.<sub>
   
 **Works in Progress**
