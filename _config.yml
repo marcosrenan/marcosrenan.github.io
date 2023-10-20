@@ -1,7 +1,7 @@
 title: "Marcos Renan Vasconcelos Magalhães"
 author: "Marcos Renan Vasconcelos Magalhães"
-description: "marcosrenan@caen.ufc.br"
-e-mail: "marcosrenan@caen.ufc.br"
+description: "marcosrenan@live.com"
+e-mail: "marcosrenan@live.com"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -19,7 +19,7 @@ minimal: true
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", file: "index.md", icon: home}  
-  - {title: "CV", url: "https://drive.google.com/file/d/1WVUsiAijTvkKvkaeMoUGxwH1YjtfRu4d/view?usp=share_link"}
+  - {title: "CV", url: "https://drive.google.com/file/d/1-6vKL9juJKW8jx3DUG00FO08CNooqMBF/view?usp=sharing"}
 #  - {title: "Lattes", url: "http://lattes.cnpq.br/9146944047583338"}
   - {title: "Research", file: "research.md"}
   - {title: "Miscellaneous", file: "miscellaneous.md"}
