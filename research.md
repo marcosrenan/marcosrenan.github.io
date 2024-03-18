@@ -29,7 +29,7 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 
 **Evaluation of Public and Government Policies**
 - **Entre o real e o ideal: medindo a eficiência do SINE nos estados brasileiros diante da evolução do mercado de trabalho**,joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3), [Paulo Neto](http://lattes.cnpq.br/7568927888412924), and Iramar Sousa.
-- **Análises da Nova Matriz Econômica (NME) brasileira sobre o Setor Informal (%PIB) e o PIB per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Leonardo Machado. [submitted]
+- **Unveiling Economic Shadows: The Impact of Brazil's New Economic Matrix on Informal Sector Dynamics and GDP per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Leonardo Machado. [submitted]
 - **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Georgeana Silveira](http://lattes.cnpq.br/3016336085010415). [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
 
 **Agro-economics**
