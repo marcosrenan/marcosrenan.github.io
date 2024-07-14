@@ -24,7 +24,7 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 
 
 
-<sub>
+<sub> <sub>
 
 **Works in Progress**
 
