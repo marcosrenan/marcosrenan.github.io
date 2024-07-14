@@ -17,6 +17,9 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 <sub>This paper was presented at the 50º Encontro Nacional Economia organized by the Associação Nacional dos Centros de Pós-Graduação em Economia (Anpec).<sub>
 - **[A BVAR Analysis on Channels of Monetary Policy Transmission in Brazil](https://doi.org/10.5539/ijef.v14n3p19)**, joint with [José Rocha](https://www.researchgate.net/profile/Francisco-Rocha-16) and [Átila Brilhante](http://lattes.cnpq.br/3964055069648793). _International Journal of Economics and Finance_, v. 14, n. 3, 19-32, 2022.  
 <sub>This paper was presented at the 2021 Winter School organized by the Centre for Development Economics (CDE) jointly with the Econometric Society at the Delhi School of Economics, India.<sub>
+
+- **[Processo Evolutivo e Dinâmica de Cooperação, Aprendizagem e Inovação do APL de Calçados do Cariri-CE](https://doi.org/10.24302/drd.v14.4842)**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Francisco Braga](http://lattes.cnpq.br/7076516474858419), [Thiago de Paula](http://lattes.cnpq.br/3342274690389071) and [Ezequiel Lobo](http://lattes.cnpq.br/9542421438776185). [submitted]
+
   
 **Works in Progress**
 
@@ -37,7 +40,6 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 - **Uma proposta de avaliação do impacto do programa de agricultura de baixo carbono (ABC) nas emissões totais de GEE da agropecuária**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR).
 
 **Regional Development**
-- **Processo Evolutivo e Dinâmica de Cooperação, Aprendizagem e Inovação do APL de Calçados do Cariri-CE**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Francisco Braga](http://lattes.cnpq.br/7076516474858419), [Thiago de Paula](http://lattes.cnpq.br/3342274690389071) and [Ezequiel Lobo](http://lattes.cnpq.br/9542421438776185). [submitted]
 - **A dinâmica de transformação dos processos produtivo e inovativo do Arranjo Produtivo Local de cachaça de Viçosa do Ceará**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR) and [Thiago de Paula](http://lattes.cnpq.br/3342274690389071). [submitted]
 
 **Other Publications (Case Studies, Policy Papers, Book Chapters)**
