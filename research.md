@@ -22,7 +22,7 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 - **[Processo Evolutivo e Dinâmica de Cooperação, Aprendizagem e Inovação do APL de Calçados do Cariri-CE](https://doi.org/10.24302/drd.v14.4842)**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Francisco Braga](http://lattes.cnpq.br/7076516474858419), [Thiago de Paula](http://lattes.cnpq.br/3342274690389071) and [Ezequiel Lobo](http://lattes.cnpq.br/9542421438776185). _DRd-Desenvolvimento Regional em debate_ v. 14, 335-362, 2024.
 
 
-
+\n
 **Works in Progress**
 
 **Macroeconomics**
