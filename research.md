@@ -32,10 +32,11 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 **Macroeconomics**
 - **The implications of corruption network for business cycles**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3).
 - **The Role of Corruption in a Simple Growth Model**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3).
+- **Mudança Estrutural e Dinâmica do Mercado de Trabalho no Brasil**, joint with [Christiano Penna](https://scholar.google.com/citations?user=rPPxk0QAAAAJ&hl=en). [Submitted]
 
 **Evaluation of Public and Government Policies**
 - **Entre o real e o ideal: medindo a eficiência do SINE nos estados brasileiros diante da evolução do mercado de trabalho**,joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3), [Paulo Neto](http://lattes.cnpq.br/7568927888412924), and Iramar Sousa.
-- **Unveiling Economic Shadows: The Impact of Brazil's New Economic Matrix on Informal Sector Dynamics and GDP per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Leonardo Machado. [Under Review]
+- **Unveiling Economic Shadows: The Impact of Brazil's New Economic Matrix on Informal Sector Dynamics and GDP per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Leonardo Machado. [Submitted]
 - **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Georgeana Silveira](http://lattes.cnpq.br/3016336085010415). [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
 
 **Agro-economics**
@@ -43,7 +44,7 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 - **Uma proposta de avaliação do impacto do programa de agricultura de baixo carbono (ABC) nas emissões totais de GEE da agropecuária**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR).
 
 **Regional Development**
-- **A dinâmica de transformação dos processos produtivo e inovativo do Arranjo Produtivo Local de cachaça de Viçosa do Ceará**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR) and [Thiago de Paula](http://lattes.cnpq.br/3342274690389071). [submitted]
+- **A dinâmica de transformação dos processos produtivo e inovativo do Arranjo Produtivo Local de cachaça de Viçosa do Ceará**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR) and [Thiago de Paula](http://lattes.cnpq.br/3342274690389071).
 
 
 
