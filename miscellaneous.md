@@ -11,9 +11,9 @@ minimal: false             # use a dark header
 - **[Matlab for Economists](https://youtube.com/playlist?list=PL1RzT_V0r_GSz6XzNW-1eGdAArKlgShwh)**, taught for the postgraduate course in economics at the Federal University of Ceará in 2022 (in Portuguese)
 - **[Statistics](https://www.youtube.com/playlist?list=PL1RzT_V0r_GQ6VMs8F_kjqLlaKxYHNLn6)**, taught for the undergraduate course in economics at the Federal University of Ceará in 2020 (in Portuguese)
 - **[Economics of Public Sector](https://www.youtube.com/playlist?list=PL1RzT_V0r_GSgX6PrRotiJt7hnJXrFVzk)**, taught for the undergraduate course in economics at the Federal University of Ceará in 2020 (in Portuguese)
-- **[Lecture Notes: Introduction to Econometrics](https://drive.google.com/file/d/1DQ1WgWTO1dpaqt4FcBiNyh5FNX2sNRPl/view?usp=sharing)** (in Portuguese)
 
 **Materials and Resources**
+- **[Lecture Notes: Introduction to Econometrics](https://drive.google.com/file/d/1DQ1WgWTO1dpaqt4FcBiNyh5FNX2sNRPl/view?usp=sharing)** (in Portuguese)
 - **[Economic Conjuncture and Public Finance](https://drive.google.com/file/d/153GqzgeOiW4Y_JyjyPNeIUAnSZNLyPW4/view?usp=sharing)**, for R. Saldanha Advocacia Corporativa on March 16th, 2022 (in Portuguese)
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/1545m9MkNEEqNXH78bco8TKljIC_U4gxL/view?usp=sharing)**, for Podemos Political Party on November 20th, 2019 (in Portuguese)
 
