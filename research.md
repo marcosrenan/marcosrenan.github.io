@@ -8,6 +8,7 @@ minimal: false             # use a dark header
 ---
 
 **Papers in peer-reviewed journals**
+- **[The economic implications of corruption dynamics](https://www.accessecon.com/Pubs/EB/2025/Volume45/EB-25-V45-I1-P38.pdf)**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3). _Economics Bulletin_, v. 45, n. 1, 418-433, 2025.
 - **[Tolerance of Informality and Occupational Choices in a Large Informal Sector Economy](https://doi.org/10.1515/bejm-2021-0076)**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3). _The BE Journal of Macroeconomics_, v. 23, n. 1, 241-278, 2022.   
 <sub>This paper was presented at the 2021 Canadian Economics Association Meeting, 42nd Meeting of the Brazilian Society of Econometrics in 2020 and 2020 Economics of Informality Conference (Universidad del Rosario, Bogotá, Colombia).<sub>
 - **[Monetary Policy, Commodity Prices and Credit in Brazil: A SVAR Approach](https://doi.org/10.4236/tel.2022.122024)**, joint with [José Rocha](https://www.researchgate.net/profile/Francisco-Rocha-16) and [Átila Brilhante](http://lattes.cnpq.br/3964055069648793). _Theoretical Economics Letters_, v. 12, n. 2, 434-450, 2022.  
@@ -31,7 +32,6 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 
 **Macroeconomics**
 - **The implications of corruption network for business cycles**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3).
-- **The Role of Corruption in a Simple Growth Model**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3).
 - **Mudança Estrutural e Dinâmica do Mercado de Trabalho no Brasil**, joint with [Christiano Penna](https://scholar.google.com/citations?user=rPPxk0QAAAAJ&hl=en). [Submitted]
 
 **Evaluation of Public and Government Policies**
