@@ -14,8 +14,8 @@ minimal: false             # use a dark header
 
 **Materials and Resources**
 - **[Lecture Notes: Introduction to Econometrics](https://drive.google.com/file/d/1DQ1WgWTO1dpaqt4FcBiNyh5FNX2sNRPl/view?usp=sharing)** (in Portuguese)
-- **[Economic Conjuncture and Public Finance](https://drive.google.com/file/d/153GqzgeOiW4Y_JyjyPNeIUAnSZNLyPW4/view?usp=sharing)**, for R. Saldanha Advocacia Corporativa on March 16th, 2022 (in Portuguese)
-- **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/1545m9MkNEEqNXH78bco8TKljIC_U4gxL/view?usp=sharing)**, for Podemos Political Party on November 20th, 2019 (in Portuguese)
+- **[Economic Conjuncture and Public Finance](https://drive.google.com/file/d/1r4D-atCMxD-QhCZ57Z1X7Tl_RYgjT4VR/view?usp=sharing)**, for R. Saldanha Advocacia Corporativa on March 16th, 2022 (in Portuguese)
+- **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, for Podemos Political Party on November 20th, 2019 (in Portuguese)
 
 **Media**
 - **Political chat and prospects for the economy of Ceará in 2022 ([part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y), [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI))**, for Jornal Alerta Geral on January 3rd, 2022 (in Portuguese)
