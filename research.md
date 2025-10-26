@@ -25,31 +25,22 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 This paper was presented at the XXVIII Encontro Regional de Economia organized by the Associação Nacional dos Centros de Pós-Graduação em Economia (Anpec).<sub>        
 - **[Processo Evolutivo e Dinâmica de Cooperação, Aprendizagem e Inovação do APL de Calçados do Cariri-CE](https://doi.org/10.24302/drd.v14.4842)**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Francisco Braga](http://lattes.cnpq.br/7076516474858419), [Thiago de Paula](http://lattes.cnpq.br/3342274690389071) and [Ezequiel Lobo](http://lattes.cnpq.br/9542421438776185). _DRd-Desenvolvimento Regional em debate_ v. 14, 335-362, 2024.
 
----
+-**[Gestão fiscal e a dinâmica econômica municipal: o papel das dívidas ativas no Brasil]**, joint with Igor Gomes and Marcelo Lamas. Accepted at [Revista Econômica do Nordeste](https://www.bnb.gov.br/revista/ren), forthcoming in 2026.
 
+---
 
 **Works in Progress**
 
-**Macroeconomics**
+- **Eficiência em Perspectiva: Um Estudo Comparativo entre Modelos de Gestão Hospitalar no Ceará**, joint with Lauro Antônio Cabral de Barros and Carla Cristina Fonteles Barroso. [submitted]
 - **The implications of corruption network for business cycles**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3).
-- **Mudança Estrutural e Dinâmica do Mercado de Trabalho no Brasil**, joint with [Christiano Penna](https://scholar.google.com/citations?user=rPPxk0QAAAAJ&hl=en). [Submitted]
-
-**Evaluation of Public and Government Policies**
-- **Entre o real e o ideal: medindo a eficiência do SINE nos estados brasileiros diante da evolução do mercado de trabalho**,joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3), [Paulo Neto](http://lattes.cnpq.br/7568927888412924), and Iramar Sousa.
-- **Unveiling Economic Shadows: The Impact of Brazil's New Economic Matrix on Informal Sector Dynamics and GDP per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and Leonardo Machado. [Submitted]
-- **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Georgeana Silveira](http://lattes.cnpq.br/3016336085010415). [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
-
-**Agro-economics**
-- **Diferenciação tecnológica na agropecuária do Nordeste brasileiro: uma análise comparativa entre seminário e não semiárido**, joint with [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR) and Bruno Machado.
+- **Unveiling Economic Shadows: The Impact of Brazil's New Economic Matrix on Informal Sector Dynamics and GDP per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR).
 - **Uma proposta de avaliação do impacto do programa de agricultura de baixo carbono (ABC) nas emissões totais de GEE da agropecuária**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR).
-
-**Regional Development**
 - **A dinâmica de transformação dos processos produtivo e inovativo do Arranjo Produtivo Local de cachaça de Viçosa do Ceará**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR) and [Thiago de Paula](http://lattes.cnpq.br/3342274690389071).
 
-
-
----
-
+--
 
 **Other Publications (Case Studies, Policy Papers, Book Chapters)**
 - **[Identificação, Mapeamento e Caracterização Estrutural de Arranjos Produtivos Locais por Região de Planejamento no Estado do Ceará](https://www.researchgate.net/publication/370465448_Identificacao_Mapeamento_e_Caracterizacao_Estrutural_de_Arranjos_Produtivos_Locais_por_Regiao_de_Planejamento_no_Estado_do_Ceara)**, joint with [Jair do Amaral Filho](https://scholar.google.com/citations?hl=pt-BR&user=O7oLStUAAAAJ), [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Ivna Machado](https://www.researchgate.net/profile/Ivna-Machado), [Francisco Braga](http://lattes.cnpq.br/7076516474858419), [José Lima](https://www.researchgate.net/profile/Jose-Carlos-Souza-Lima) and [Paulo Costa](https://www.researchgate.net/profile/Paulo-Costa-65). Fortaleza, Ceará, Brazil. Instituto Centec, 2022.
+
+**Mimeo**
+- **The economic and social consequences of the government of Nicolás Maduro in Venezuela: a synthetic control method approach**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Georgeana Silveira](http://lattes.cnpq.br/3016336085010415). [[current version]](https://drive.google.com/file/d/1G_U_bQB1Iv-6MQfv6GbLKc5m6AhYZfC2/view?usp=sharing)
