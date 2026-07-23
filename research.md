@@ -31,15 +31,11 @@ This paper was presented at the XXVIII Encontro Regional de Economia organized b
 
 **Works in Progress**
 - **Eficiência em Perspectiva: Um Estudo Comparativo entre Modelos de Gestão Hospitalar no Ceará**, joint with Lauro Antônio Cabral de Barros and Carla Cristina Fonteles Barroso. [submitted]
+<sub> **Media:** [Secretaria da Saúde do Ceará](https://www.nexojornal.com.br/academico/dados-pesquisa-crimes-criminalidade-fortaleza-analise)        
+This paper was presented at the XXVIII Encontro Regional de Economia organized by the Associação Nacional dos Centros de Pós-Graduação em Economia (Anpec).<sub>
 - **População, utilização assistencial e acessibilidade territorial no financiamento dos consórcios públicos de saúde do Ceará**, joint with Bruno Eloy Farias Araújo, Leandro Araújo Sales and José Soares de Andrade Júnior. [submitted]
 - **Da vinculação constitucional à execução orçamentária: evidências da despesa pública em saúde no Ceará**, joint with Carla Cristina Fonteles Barroso. [submitted]
 - **Geografia fiscal do DIFAL: habitualidade, volumetria e incidência tributária em operações interestaduais destinadas a pessoas físicas no Ceará**, joint with Paulo Rogério Faustino Matos and Vilmar Alves Ferreira. [Under Review in Estudos Econômicos]
-<!--
-- **The implications of corruption network for business cycles**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3).
-- **Unveiling Economic Shadows: The Impact of Brazil's New Economic Matrix on Informal Sector Dynamics and GDP per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR).
-- **Uma proposta de avaliação do impacto do programa de agricultura de baixo carbono (ABC) nas emissões totais de GEE da agropecuária**, joint with [Guilherme Irffi](https://scholar.google.com/citations?hl=pt-BR&user=_EjecHUAAAAJ) and [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR).
-- **A dinâmica de transformação dos processos produtivo e inovativo do Arranjo Produtivo Local de cachaça de Viçosa do Ceará**, joint with [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR) and [Thiago de Paula](http://lattes.cnpq.br/3342274690389071).
--->
 
 **Other Publications (Case Studies, Policy Papers, Book Chapters)**
 - **[Identificação, Mapeamento e Caracterização Estrutural de Arranjos Produtivos Locais por Região de Planejamento no Estado do Ceará](https://www.researchgate.net/publication/370465448_Identificacao_Mapeamento_e_Caracterizacao_Estrutural_de_Arranjos_Produtivos_Locais_por_Regiao_de_Planejamento_no_Estado_do_Ceara)**, joint with [Jair do Amaral Filho](https://scholar.google.com/citations?hl=pt-BR&user=O7oLStUAAAAJ), [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Ivna Machado](https://www.researchgate.net/profile/Ivna-Machado), [Francisco Braga](http://lattes.cnpq.br/7076516474858419), [José Lima](https://www.researchgate.net/profile/Jose-Carlos-Souza-Lima) and [Paulo Costa](https://www.researchgate.net/profile/Paulo-Costa-65). Fortaleza, Ceará, Brazil. Instituto Centec, 2022.
