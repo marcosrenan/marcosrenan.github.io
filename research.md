@@ -33,7 +33,7 @@ This paper was presented at the XXVIII Encontro Regional de Economia organized b
 - **Eficiência em Perspectiva: Um Estudo Comparativo entre Modelos de Gestão Hospitalar no Ceará**, joint with Lauro Antônio Cabral de Barros and Carla Cristina Fonteles Barroso. [submitted]
 - **População, utilização assistencial e acessibilidade territorial no financiamento dos consórcios públicos de saúde do Ceará**, joint with Bruno Eloy Farias Araújo, Leandro Araújo Sales and José Soares de Andrade Júnior. [submitted]
 - **Da vinculação constitucional à execução orçamentária: evidências da despesa pública em saúde no Ceará**, joint with Carla Cristina Fonteles Barroso. [submitted]
-- **Geografia fiscal do DIFAL: habitualidade, volumetria e incidência tributária em operações interestaduais destinadas a pessoas físicas no Ceará**, joint with Paulo Rogério Faustino Matos and Vilmar Alves Ferreira. [RR in Estudos Econômicos]
+- **Geografia fiscal do DIFAL: habitualidade, volumetria e incidência tributária em operações interestaduais destinadas a pessoas físicas no Ceará**, joint with Paulo Rogério Faustino Matos and Vilmar Alves Ferreira. [Under Review in Estudos Econômicos]
 <!--
 - **The implications of corruption network for business cycles**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3).
 - **Unveiling Economic Shadows: The Impact of Brazil's New Economic Matrix on Informal Sector Dynamics and GDP per capita**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR).
