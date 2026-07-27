@@ -10,6 +10,7 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 <style>
 .profile-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
@@ -19,13 +20,15 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 }
 
 .flag-counter {
+  display: block;
+  width: 120px;
   margin-top: 70px;
   flex-shrink: 0;
 }
 
 .flag-counter img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -40,18 +43,21 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 /* Celular */
 @media screen and (max-width: 600px) {
   .profile-container {
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
   }
 
   .flag-counter {
-    margin-top: 10px;
+    width: 90px;
+    max-width: 40%;
+    margin-top: 20px;
   }
 
   .profile-photo {
-    width: 160px;
-    max-width: 100%;
+    width: 140px;
+    max-width: 45%;
   }
 }
 </style>
