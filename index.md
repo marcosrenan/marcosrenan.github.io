@@ -9,4 +9,4 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 
 <img src="renan2-modified.png" width="200" style="float:right">
 
-<a href="https://info.flagcounter.com/27o5"><img src="https://s01.flagcounter.com/count2/27o5/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" style="float:left; margin-top:100px;"></a>
+<a href="https://info.flagcounter.com/27o5"><img src="https://s01.flagcounter.com/count2/27o5/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" style="float:left; margin-top:200px;"></a>
