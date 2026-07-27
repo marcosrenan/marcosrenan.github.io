@@ -21,5 +21,6 @@ minimal: false             # use a dark header
 - **Political discussion and prospects for Ceará's economy in 2022 ([part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y), [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI))**, interview for Jornal Alerta Geral on January 3, 2022 (in Portuguese)
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, presented to Podemos Political Party on November 20, 2019 (in Portuguese)
 
+
 **Awards and Recognition**
-- **Honorable Mention in the Innovation category**, awarded at the National Symposium of Health Economics Centers, organized by the Brazilian Ministry of Health, in Brasília, Brazil, in 2026
+- **[Honorable Mention in the Innovation category](https://drive.google.com/file/d/1hGPubQJf268vmKbODJDDFbEp9fjg1zXi/view?usp=sharing)**, awarded at the National Symposium of Health Economics Centers, organized by the Brazilian Ministry of Health, in Brasília, Brazil, in 2026
