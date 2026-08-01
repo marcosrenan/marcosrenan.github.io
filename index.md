@@ -13,7 +13,7 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  width: 115%;
+  width: 100%;
   gap: 30px;
   margin-top: 20px;
   box-sizing: border-box;
