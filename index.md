@@ -28,7 +28,7 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 
 .flag-counter img {
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
