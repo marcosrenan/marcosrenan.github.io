@@ -21,14 +21,14 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 
 .flag-counter {
   display: block;
-  width: 115px;
+  width: 100px;
   margin-top: 70px;
   flex-shrink: 0;
 }
 
 .flag-counter img {
   display: block;
-  width: 90%;
+  width: 85%;
   height: auto;
 }
 
@@ -50,8 +50,8 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   }
 
   .flag-counter {
-    width: 90px;
-    max-width: 40%;
+    width: 82px;
+    max-width: 37%;
     margin-top: 20px;
   }
 
