@@ -20,7 +20,7 @@ _International Journal of Economics and Finance_, v. 16, n. 3, 31-41, 2024.
 <sub>This paper was presented at the 2021 Winter School organized by the Centre for Development Economics (CDE) jointly with the Econometric Society at the Delhi School of Economics, India.<sub>
 
 **Papers in peer-reviewed journals (in Portuguese)**
-- **[Gestão fiscal e a dinâmica econômica municipal: o papel das dívidas ativas no Brasil](https://doi.org/10.61673/ren.2027.3101)**, joint with Igor Gomes, [Marcelo Lamas](https://orcid.org/0000-0003-1735-7981) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3). _Revista Econômica do Nordeste_, e20273101, 2026.
+- **[Gestão fiscal e a dinâmica econômica municipal: o papel das dívidas ativas no Brasil](https://doi.org/10.61673/ren.2027.3101)**, joint with [Igor Gomes](https://orcid.org/0009-0003-7920-0004), [Marcelo Lamas](https://orcid.org/0000-0003-1735-7981) and [Márcio Corrêa](https://www.researchgate.net/profile/Marcio-Correa-3). _Revista Econômica do Nordeste_, e20273101, 2026.
  
 - **[A criminalidade tomou conta da cidade: o cinturão de insegurança em Fortaleza, Ceará](https://www.revistaaber.org.br/rberu/article/view/1069)**, joint with [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Marcelo Santos](https://www.linkedin.com/in/marcelo-d-6683a93a/) and [Christiano Penna](https://scholar.google.com/citations?user=rPPxk0QAAAAJ&hl=en). _Revista Brasileira de Estudos Regionais e Urbanos_ v. 18, n. 1, 118-149, 2024.         
 <sub> **Media:** [Nexo Jornal](https://www.nexojornal.com.br/academico/dados-pesquisa-crimes-criminalidade-fortaleza-analise)        
