@@ -22,7 +22,7 @@ minimal: false             # use a dark header
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, presented to Podemos Political Party on November 20, 2019 (in Portuguese)
 
 **Nice Datasets**
-<div markdown="1" style="font-size: 0.55em;">
+<div markdown="1" style="font-size: 0.7em; line-height: 1.0;">
 A selection of useful data sources for research and exploration.
 
 *International*
