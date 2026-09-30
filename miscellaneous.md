@@ -20,3 +20,40 @@ minimal: false             # use a dark header
 - **[Economic Conjuncture and Public Finance](https://drive.google.com/file/d/1r4D-atCMxD-QhCZ57Z1X7Tl_RYgjT4VR/view?usp=sharing)**, presented at R. Saldanha Advocacia Corporativa on March 16, 2022 (in Portuguese)
 - **Political discussion and prospects for Ceará's economy in 2022 ([part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y), [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI))**, interview for Jornal Alerta Geral on January 3, 2022 (in Portuguese)
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, presented to Podemos Political Party on November 20, 2019 (in Portuguese)
+
+**Nice Datasets**
+<p style="font-size: 0.75em;">
+  A selection of useful data sources for research and exploration.
+</p>
+
+*International*
+- **[BIS — Data Portal](https://data.bis.org/topics)**
+- **[CEPALSTAT — Latin America and the Caribbean Statistics](https://statistics.cepal.org/)**
+- **[Economic Policy Uncertainty](https://www.policyuncertainty.com/index.html)**
+- **[Eurostat — European Statistics](https://ec.europa.eu/eurostat/web/main/data/database)**
+- **[FAOSTAT — Food and Agriculture Data](https://faostat.fao.org/)**
+- **[Federal Reserve — Data](https://www.federalreserve.gov/data.htm)**
+- **[FRED — Federal Reserve Economic Data](https://fred.stlouisfed.org/)**
+- **[ILOSTAT — Labour Statistics](https://ilostat.ilo.org/data/)**
+- **[IMF — Data Portal](https://data.imf.org/datasets)**
+- **[OECD — Data Explorer](https://data-explorer.oecd.org/)**
+- **[Our World in Data](https://ourworldindata.org)**
+- **[UN Comtrade — International Trade Statistics](https://comtradeplus.un.org/)**
+- **[UNDP — Human Development Data Center](https://hdr.undp.org/data-center)**
+- **[WHO — Global Health Observatory](https://www.who.int/data/gho)**
+- **[World Bank — Microdata Library](https://microdata.worldbank.org/index.php/home)**
+- **[World Bank — World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)**
+- **[World Inequality Database](https://wid.world)**
+- **[World Justice Project — Rule of Law Index: Regulatory Enforcement (2023)](https://worldjusticeproject.org/rule-of-law-index/factors/2023/Regulatory%2520Enforcement)**
+
+*Brazil*
+- **[Central Bank of Brazil — Economic and Financial Statistics](https://www.bcb.gov.br/estatisticas)**
+- **[Comex Stat — Brazilian Foreign Trade Data](https://comexstat.mdic.gov.br/pt/home)**
+- **[DATASUS — Health Statistics and TABNET](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)**
+- **[IBGE — SIDRA Statistical Database](https://sidra.ibge.gov.br/)**
+- **[INEP — Education Microdata](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados)**
+- **[Ipeadata — Economic, Regional and Social Data](https://www.ipeadata.gov.br/)**
+- **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
+- **[National Treasury — Siconfi/Finbra Public Finance Data](https://www.tesourotransparente.gov.br/consultas/consultas-siconfi/siconfi-finbra-demonstrativos-de-contas-anuais)**
+- **[Transparency Portal — Federal Government Open Data](https://portaldatransparencia.gov.br/download-de-dados/)**
+- **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
