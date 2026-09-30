@@ -37,7 +37,6 @@ A selection of useful data sources for research and exploration.
 - **[Economic Policy Uncertainty](https://www.policyuncertainty.com/index.html)**
 - **[Eurostat — European Statistics](https://ec.europa.eu/eurostat/web/main/data/database)**
 - **[FAOSTAT — Food and Agriculture Data](https://faostat.fao.org/)**
-- **[Federal Reserve — Data](https://www.federalreserve.gov/data.htm)**
 - **[FRED — Federal Reserve Economic Data](https://fred.stlouisfed.org/)**
 - **[ILOSTAT — Labour Statistics](https://ilostat.ilo.org/data/)**
 - **[IMF — Data Portal](https://data.imf.org/datasets)**
