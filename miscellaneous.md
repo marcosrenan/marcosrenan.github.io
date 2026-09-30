@@ -62,6 +62,7 @@ A selection of useful data sources for research and exploration.
 - **[IBGE — SIDRA Statistical Database](https://sidra.ibge.gov.br/)**
 - **[INEP — Education Microdata](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados)**
 - **[Ipeadata — Economic, Regional and Social Data](https://www.ipeadata.gov.br/)**
+- **[National Treasury — Siconfi/Finbra Public Finance Data](https://www.tesourotransparente.gov.br/consultas/consultas-siconfi/siconfi-finbra-demonstrativos-de-contas-anuais)**
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
