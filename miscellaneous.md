@@ -22,8 +22,14 @@ minimal: false             # use a dark header
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, presented to Podemos Political Party on November 20, 2019 (in Portuguese)
 
 **Nice Datasets**
+
 <div markdown="1" style="font-size: 0.7em; line-height: 1.0;">
+
 A selection of useful data sources for research and exploration.
+
+<div markdown="1" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start;">
+
+<div markdown="1">
 
 *International*
 - **[BIS — Data Portal](https://data.bis.org/topics)**
@@ -43,7 +49,11 @@ A selection of useful data sources for research and exploration.
 - **[World Bank — Microdata Library](https://microdata.worldbank.org/index.php/home)**
 - **[World Bank — World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)**
 - **[World Inequality Database](https://wid.world)**
-- **[World Justice Project — Rule of Law Index: Regulatory Enforcement (2023)](https://worldjusticeproject.org/rule-of-law-index/factors/2023/Regulatory%2520Enforcement)**
+- **[World Justice Project — Rule of Law Index: Regulatory Enforcement)](https://worldjusticeproject.org/rule-of-law-index/factors/2023/Regulatory%2520Enforcement)**
+
+</div>
+
+<div markdown="1">
 
 *Brazil*
 - **[Central Bank of Brazil — Economic and Financial Statistics](https://www.bcb.gov.br/estatisticas)**
@@ -58,3 +68,8 @@ A selection of useful data sources for research and exploration.
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
 </div>
+
+</div>
+
+</div>
+```
