@@ -42,13 +42,14 @@ A selection of useful data sources for research and exploration.
 - **[IMF — Data Portal](https://data.imf.org/datasets)**
 - **[OECD — Data Explorer](https://data-explorer.oecd.org/)**
 - **[Our World in Data](https://ourworldindata.org)**
+- **[The Heritage Foundation – Economic Freedom](https://economicfreedom.heritage.org)**
 - **[UN Comtrade — International Trade Statistics](https://comtradeplus.un.org/)**
 - **[UNDP — Human Development Data Center](https://hdr.undp.org/data-center)**
 - **[WHO — Global Health Observatory](https://www.who.int/data/gho)**
 - **[World Bank — Microdata Library](https://microdata.worldbank.org/index.php/home)**
 - **[World Bank — World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)**
 - **[World Inequality Database](https://wid.world)**
-- **[World Justice Project — Rule of Law Index: Regulatory Enforcement)](https://worldjusticeproject.org/rule-of-law-index/factors/2023/Regulatory%2520Enforcement)**
+- **[World Justice Project — Rule of Law Index: Regulatory Enforcement](https://worldjusticeproject.org/rule-of-law-index/factors/2023/Regulatory%2520Enforcement)**
 
 </div>
 
@@ -62,7 +63,6 @@ A selection of useful data sources for research and exploration.
 - **[INEP — Education Microdata](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados)**
 - **[Ipeadata — Economic, Regional and Social Data](https://www.ipeadata.gov.br/)**
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
-- **[National Treasury — Siconfi/Finbra Public Finance Data](https://www.tesourotransparente.gov.br/consultas/consultas-siconfi/siconfi-finbra-demonstrativos-de-contas-anuais)**
 - **[Transparency Portal — Federal Government Open Data](https://portaldatransparencia.gov.br/download-de-dados/)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
