@@ -7,6 +7,19 @@ show_sidebar: true         # show a sidebar instead of the usual header
 minimal: false             # use a dark header
 ---
 
+<style>
+.teaching-talks {
+  font-size: 0.85em;
+  line-height: 1.15;
+}
+
+.teaching-talks li {
+  margin: 0.25em 0;
+}
+</style>
+
+<div markdown="1" class="teaching-talks">
+ 
 **Papers in peer-reviewed journals**
 - **[The economic implications of corruption dynamics](https://www.researchgate.net/profile/Marcos-Magalhaes-12/publication/391395354_The_economic_implications_of_corruption_dynamics/links/6814daedbfbe974b23c1ee1f/The-economic-implications-of-corruption-dynamics.pdf)**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://orcid.org/0000-0001-6715-6753). _Economics Bulletin_, v. 45, n. 1, 418-433, 2025.
 - **[Tolerance of Informality and Occupational Choices in a Large Informal Sector Economy](https://doi.org/10.1515/bejm-2021-0076)**, joint with [Marcelo Arbex](https://sites.google.com/site/arbexmarcelo/) and [Márcio Corrêa](https://orcid.org/0000-0001-6715-6753). _The BE Journal of Macroeconomics_, v. 23, n. 1, 241-278, 2022.   
@@ -46,3 +59,5 @@ This paper received the [Honorable Mention in the Innovation category](https://d
 - **[Diagnóstico do Arranjo Produtivo Local de Móveis de Marco, Ceará](https://www.adece.ce.gov.br/wp-content/uploads/sites/98/2023/08/LAYOUT-004-Projeto-APL-Diagnostico-APL-de-Moveis-Marco-Versao-Final.Digital.pdf)**, joint with Luiz Alves da Silva Cruz Neto, [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), Luana Lima Bandeira Araújo, [Paulo Costa](https://www.researchgate.net/profile/Paulo-Costa-65), Mauricio Cabrera Baca, [Jair do Amaral Filho](https://scholar.google.com/citations?hl=pt-BR&user=O7oLStUAAAAJ) and [Ivna Machado](https://www.researchgate.net/profile/Ivna-Machado). Fortaleza, Ceará, Brazil. Instituto Centec, 2022.
 - **[Diagnóstico do Arranjo Produtivo Local de Serviços de Manutenção e Reparação Automotiva de Tabuleiro do Norte, Ceará](https://www.adece.ce.gov.br/wp-content/uploads/sites/98/2023/08/LAYOUT-005-Projeto-APL-Diagnostico-APL-Serv.-de-Manut.-e-Repar.-Automotiva-Versao-Final.-Digital.pdf)**, joint with [Thiago de Paula](http://lattes.cnpq.br/3342274690389071), [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), [Elda Tahim](https://scholar.google.com/citations?hl=pt-BR&user=4fhQd_EAAAAJ), [Jair do Amaral Filho](https://scholar.google.com/citations?hl=pt-BR&user=O7oLStUAAAAJ), Luana Lima Bandeira Araújo, Mauricio Cabrera Baca and [Ivna Machado](https://www.researchgate.net/profile/Ivna-Machado). Fortaleza, Ceará, Brazil. Instituto Centec, 2022.
 - **[Anuário do Ceará 2022-2023](https://www.anuariodoceara.com.br/noticias/o-centenario-de-aldemir-martins-deu-cores-e-formas-ao-projeto-grafico-do-anuario-do-ceara-2022-2023/)**, joint with Andrei Gomes Simonassi, Célio Fernando Bezerra Melo, Expedito José de Sá Parente Júnior, [Felipe Silva](https://scholar.google.com/citations?user=A2ZsTe0AAAAJ&hl=pt-BR), Filipe Rabelo Távora, Heitor Studart and Helena Martins Teofilo as part of the BFA Economic Analysis Team. Fortaleza, Ceará, Brazil. Fundação Demócrito Rocha, 2022-2023.
+
+<div>
