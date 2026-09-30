@@ -26,9 +26,11 @@ minimal: false             # use a dark header
 - **[Statistics](https://www.youtube.com/playlist?list=PL1RzT_V0r_GQ6VMs8F_kjqLlaKxYHNLn6)**, taught in the undergraduate program in economics at the Federal University of Ceará in 2020 (in Portuguese)
 - **[Economics of the Public Sector](https://www.youtube.com/playlist?list=PL1RzT_V0r_GSgX6PrRotiJt7hnJXrFVzk)**, taught in the undergraduate program in economics at the Federal University of Ceará in 2020 (in Portuguese)
 
+
 **Teaching Materials**
 
 - **[Lecture Notes: Introduction to Econometrics](https://drive.google.com/file/d/1DQ1WgWTO1dpaqt4FcBiNyh5FNX2sNRPl/view?usp=sharing)** (in Portuguese)
+
 
 **Selected Presentations and Talks**
 
@@ -37,11 +39,12 @@ minimal: false             # use a dark header
 - **Political discussion and prospects for Ceará's economy in 2022 ([part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y), [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI))**, interview for Jornal Alerta Geral on January 3, 2022 (in Portuguese)
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, presented to Podemos Political Party on November 20, 2019 (in Portuguese)
 
+
 **Nice Datasets**: A selection of useful data sources for research and exploration.
 </div>
 <div markdown="1" style="font-size: 0.7em; line-height: 1.0;">
 <div markdown="1" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start;">
-<div markdown="1">
+<div markdown="1"> 
 
 *International*
 - **[BIS — Data Portal](https://data.bis.org/topics)**
