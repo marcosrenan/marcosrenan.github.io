@@ -55,7 +55,7 @@ A selection of useful data sources for research and exploration.
 <div markdown="1">
 
 *Brazil*
-- **[Central Bank of Brazil — Economic and Financial Statistics](https://www.bcb.gov.br/estatisticas)**
+- **[Central Bank of Brazil — Economic and Financial Statistics](https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries)**
 - **[Comex Stat — Brazilian Foreign Trade Data](https://comexstat.mdic.gov.br/pt/home)**
 - **[DATASUS — Health Statistics and TABNET](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)**
 - **[IBGE — SIDRA Statistical Database](https://sidra.ibge.gov.br/)**
