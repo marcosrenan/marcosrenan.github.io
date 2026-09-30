@@ -42,7 +42,7 @@ A selection of useful data sources for research and exploration.
 - **[IMF — Data Portal](https://data.imf.org/datasets)**
 - **[OECD — Data Explorer](https://data-explorer.oecd.org/)**
 - **[Our World in Data](https://ourworldindata.org)**
-- **[The Heritage Foundation – Economic Freedom](https://economicfreedom.heritage.org)**
+- **[The Heritage Foundation – Index of Economic Freedom](https://economicfreedom.heritage.org)**
 - **[UN Comtrade — International Trade Statistics](https://comtradeplus.un.org/)**
 - **[UNDP — Human Development Data Center](https://hdr.undp.org/data-center)**
 - **[WHO — Global Health Observatory](https://www.who.int/data/gho)**
