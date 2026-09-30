@@ -22,7 +22,8 @@ minimal: false             # use a dark header
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, presented to Podemos Political Party on November 20, 2019 (in Portuguese)
 
 **Nice Datasets**
-<sub> A selection of useful data sources for research and exploration. <sub>
+<div markdown="1" style="font-size: 0.55em;">
+A selection of useful data sources for research and exploration.
 
 *International*
 - **[BIS — Data Portal](https://data.bis.org/topics)**
@@ -55,3 +56,5 @@ minimal: false             # use a dark header
 - **[National Treasury — Siconfi/Finbra Public Finance Data](https://www.tesourotransparente.gov.br/consultas/consultas-siconfi/siconfi-finbra-demonstrativos-de-contas-anuais)**
 - **[Transparency Portal — Federal Government Open Data](https://portaldatransparencia.gov.br/download-de-dados/)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
+
+</div>
