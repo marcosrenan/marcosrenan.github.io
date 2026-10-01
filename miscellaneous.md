@@ -58,6 +58,7 @@ minimal: false             # use a dark header
 - **[UN Comtrade — International Trade Statistics](https://comtradeplus.un.org/)**
 - **[UNDP — Human Development Data Center](https://hdr.undp.org/data-center)**
 - **[WHO — Global Health Observatory](https://www.who.int/data/gho)**
+- **[World Bank – Informal Economy Database](https://data360.worldbank.org/en/dataset/WB_INFECDB)**
 - **[World Bank — Microdata Library](https://microdata.worldbank.org/index.php/home)**
 - **[World Bank — World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)**
 - **[World Inequality Database](https://wid.world)**
