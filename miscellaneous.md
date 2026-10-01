@@ -71,6 +71,7 @@ minimal: false             # use a dark header
 *Brazil*
 - **[Central Bank of Brazil — Economic and Financial Statistics](https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries)**
 - **[Comex Stat — Brazilian Foreign Trade Data](https://comexstat.mdic.gov.br/pt/home)**
+- **[CGU — Administrative Disciplinary Proceedings](https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/cgu-pad)**
 - **[DATASUS — Health Statistics and TABNET](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)**
 - **[IBGE — SIDRA Statistical Database](https://sidra.ibge.gov.br/)**
 - **[INEP — Education Microdata](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados)**
