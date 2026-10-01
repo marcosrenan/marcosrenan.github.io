@@ -37,7 +37,7 @@ minimal: false             # use a dark header
 
 <br>
 
-**Nice Datasets**: A selection of useful data sources for research and exploration.
+**Nice Databases**: A selection of useful data sources for research and exploration.
 </div>
 <div markdown="1" style="font-size: 0.7em; line-height: 1.0;">
 <div markdown="1" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start;">
