@@ -25,10 +25,6 @@ minimal: false             # use a dark header
 - **[MATLAB for Economists](https://youtube.com/playlist?list=PL1RzT_V0r_GSz6XzNW-1eGdAArKlgShwh)**, taught in the postgraduate program in economics at the Federal University of Ceará in 2022 (in Portuguese)
 - **[Statistics](https://www.youtube.com/playlist?list=PL1RzT_V0r_GQ6VMs8F_kjqLlaKxYHNLn6)**, taught in the undergraduate program in economics at the Federal University of Ceará in 2020 (in Portuguese)
 - **[Economics of the Public Sector](https://www.youtube.com/playlist?list=PL1RzT_V0r_GSgX6PrRotiJt7hnJXrFVzk)**, taught in the undergraduate program in economics at the Federal University of Ceará in 2020 (in Portuguese)
-
-
-**Teaching Materials**
-
 - **[Lecture Notes: Introduction to Econometrics](https://drive.google.com/file/d/1DQ1WgWTO1dpaqt4FcBiNyh5FNX2sNRPl/view?usp=sharing)** (in Portuguese)
 
 
