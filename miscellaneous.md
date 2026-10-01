@@ -79,8 +79,6 @@ minimal: false             # use a dark header
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
-*Indonesia* - **[Informal Sector Enterprise Survey 2023](https://microdata.worldbank.org/index.php/catalog/6480)**
-
 </div>
 
 </div>
