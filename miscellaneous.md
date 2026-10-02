@@ -91,8 +91,6 @@ minimal: false             # use a dark header
 
 <div markdown="1" class="teaching-talks">
 
-<br>
-
 **Nice Websites**: A selection of websites for learning economics, exploring quantitative methods, and keeping up with the field.
 
 </div>
