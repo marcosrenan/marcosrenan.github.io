@@ -146,14 +146,12 @@ minimal: false
 
 - **[CORE Econ — Economics Textbooks and Learning Resources](https://www.core-econ.org/)**
 - **[EconGraphs — Interactive Economic Models and Explanations](https://www.econgraphs.org/)**
-- **[Marginal Revolution University — Economics Courses and Videos](https://mru.org/)**
 - **[MIT OpenCourseWare — Economics](https://ocw.mit.edu/search/?d=Economics)**
 
 <h3 class="subsection-heading">Research and Commentary</h3>
 
 - **[Blog do IBRE — Brazilian Economy and Public Policy](https://blogdoibre.fgv.br/)**
 - **[INOMICS — Economics Resources and Academic Opportunities](https://inomics.com)**
-- **[Journal of Economic Perspectives](https://www.aeaweb.org/journals/jep)**
 - **[NBER — The Digest](https://www.nber.org/digest)**
 - **[VoxEU — Economic Research and Policy Analysis](https://cepr.org/voxeu)**
 
@@ -163,13 +161,9 @@ minimal: false
 
 <h3 class="subsection-heading">Econometrics and Quantitative Methods</h3>
 
-- **[An Introduction to Statistical Learning — R and Python](https://www.statlearning.com/)**
 - **[Causal Inference: The Remix — Scott Cunningham](https://mixtape.scunning.com/)**
-- **[Forecasting: Principles and Practice](https://otexts.com/fpp3/)**
 - **[Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)**
-- **[Introduction to Econometrics with R](https://www.econometrics-with-r.org/)**
 - **[QuantEcon — Quantitative Economics with Python and Julia](https://quantecon.org)**
-- **[R for Data Science](https://r4ds.hadley.nz/)**
 - **[The Effect — Research Design and Causality](https://theeffectbook.net/)**
 
 </div>
