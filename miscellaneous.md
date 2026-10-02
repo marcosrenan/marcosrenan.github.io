@@ -54,7 +54,7 @@ minimal: false
 }
 
 .resources-page .columns ul {
-  line-height: 1.0;
+  line-height: 1.15;
 }
 
 .resources-page .columns ul + .subsection-heading {
