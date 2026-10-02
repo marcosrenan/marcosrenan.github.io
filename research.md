@@ -9,8 +9,8 @@ minimal: false             # use a dark header
 
 <style>
 .teaching-talks {
-  font-size: 0.85em;
-  line-height: 1.15;
+  font-size: 0.8em;
+  line-height: 1.1;
 }
 
 .teaching-talks li {
