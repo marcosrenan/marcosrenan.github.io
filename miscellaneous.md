@@ -50,6 +50,7 @@ minimal: false             # use a dark header
 - **[Eurostat — European Statistics](https://ec.europa.eu/eurostat/web/main/data/database)**
 - **[FAOSTAT — Food and Agriculture Data](https://faostat.fao.org/)**
 - **[FRED — Federal Reserve Economic Data](https://fred.stlouisfed.org/)**
+- **[Harvard Dataverse — Research Data Repository](https://dataverse.harvard.edu)**
 - **[ILOSTAT — Labour Statistics](https://ilostat.ilo.org/data/)**
 - **[IMF — Data Portal](https://data.imf.org/datasets)**
 - **[OECD — Data Explorer](https://data-explorer.oecd.org/)**
@@ -79,6 +80,58 @@ minimal: false             # use a dark header
 - **[National Treasury — Siconfi/Finbra Public Finance Data](https://www.tesourotransparente.gov.br/consultas/consultas-siconfi/siconfi-finbra-demonstrativos-de-contas-anuais)**
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
+
+</div>
+</div>
+</div>
+
+<div markdown="1" class="teaching-talks">
+
+<br>
+
+<div markdown="1" class="teaching-talks">
+
+<br>
+
+**Nice Websites**: A selection of websites for learning economics, exploring quantitative methods, and keeping up with the field.
+
+</div>
+
+<div markdown="1" style="font-size: 0.7em; line-height: 1.0;">
+
+<div markdown="1" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start;">
+
+<div markdown="1">
+
+*Learning Economics*
+
+- **[CORE Econ — Economics Textbooks and Learning Resources](https://www.core-econ.org/)**
+- **[EconGraphs — Interactive Economic Models and Explanations](https://www.econgraphs.org/)**
+- **[Marginal Revolution University — Economics Courses and Videos](https://mru.org/)**
+- **[MIT OpenCourseWare — Economics](https://ocw.mit.edu/search/?d=Economics)**
+
+*Research and Commentary*
+
+- **[Blog do IBRE — Brazilian Economy and Public Policy](https://blogdoibre.fgv.br/)**
+- **[INOMICS — Economics Resources and Academic Opportunities](https://inomics.com)**
+- **[Journal of Economic Perspectives](https://www.aeaweb.org/journals/jep)**
+- **[NBER — The Digest](https://www.nber.org/digest)**
+- **[VoxEU — Economic Research and Policy Analysis](https://cepr.org/voxeu)**
+
+</div>
+
+<div markdown="1">
+
+*Econometrics and Quantitative Methods*
+
+- **[An Introduction to Statistical Learning — R and Python](https://www.statlearning.com/)**
+- **[Causal Inference: The Remix — Scott Cunningham](https://mixtape.scunning.com/)**
+- **[Forecasting: Principles and Practice](https://otexts.com/fpp3/)**
+- **[Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)**
+- **[Introduction to Econometrics with R](https://www.econometrics-with-r.org/)**
+- **[QuantEcon — Quantitative Economics with Python and Julia](https://quantecon.org)**
+- **[R for Data Science](https://r4ds.hadley.nz/)**
+- **[The Effect — Research Design and Causality](https://theeffectbook.net/)**
 
 </div>
 
