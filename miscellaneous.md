@@ -20,7 +20,7 @@ minimal: false
 .resources-page .section-heading h2 {
   display: inline;
   margin: 0;
-  font-size: 1.10em;
+  font-size: 1em;
 }
 
 .resources-page .section-description {
@@ -29,7 +29,7 @@ minimal: false
 
 .resources-page .subsection-heading {
   margin: 0 0 0.55em;
-  font-size: 0.90em;
+  font-size: 0.85em;
   font-weight: 400;
   font-style: italic;
   line-height: 1.2;
