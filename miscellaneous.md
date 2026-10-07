@@ -1,4 +1,4 @@
-3---
+---
 layout: page
 show_social: true
 show_excerpts: false
@@ -59,6 +59,39 @@ minimal: false
 
 .resources-page .columns ul + .subsection-heading {
   margin-top: 1.25em;
+}
+
+.resources-page .wow-abducao {
+  display: block;
+  width: 180px;
+  max-width: 30%;
+  height: auto;
+  margin: 8px auto 0;
+  transform: translateX(-150px);
+  transform-origin: center;
+  animation: abduzir-wow 10s ease-in-out 5s infinite;
+}
+
+@keyframes abduzir-wow {
+  0%, 40%, 100% {
+    transform: translateX(-150px) translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  10% {
+    transform: translateX(-150px) translateY(-8px) scale(1);
+    opacity: 1;
+  }
+
+  25% {
+    transform: translateX(-150px) translateY(-100px) scale(0.05);
+    opacity: 0;
+  }
+
+  26% {
+    transform: translateX(-150px) translateY(0) scale(1);
+    opacity: 0;
+  }
 }
 </style>
 
@@ -132,24 +165,11 @@ minimal: false
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
-<style>
-@keyframes girar-wow {
-  from {
-    transform: translateX(-150px) rotate(0deg);
-  }
-  to {
-    transform: translateX(-150px) rotate(360deg);
-  }
-}
-</style>
-
-<br>
-
 <img
+  class="wow-abducao"
   src="{{ '/Look%20Wow%20Sticker%20by%20UBERcut.gif' | relative_url }}"
-  alt="Look Wow!"
-  style="display: block; width: 180px; max-width: 30%; height: auto; margin: 16px auto 0; transform: translateX(-150px); transform-origin: center; animation: girar-wow 4s linear 10s infinite;">
-  
+  alt="Look Wow!">
+
 </div>
 
 </div>
