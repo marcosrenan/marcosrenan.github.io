@@ -130,6 +130,11 @@ minimal: false
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
+<img
+  src="{{ '/assets/images/Great%20Job%20GIF%20by%20MOODMAN.gif' | relative_url }}"
+  alt="Great job!"
+  style="display: block; width: 240px; max-width: 100%; height: auto; margin: 16px auto 0;">
+  
 </div>
 
 </div>
