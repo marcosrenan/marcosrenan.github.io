@@ -131,11 +131,39 @@ minimal: false
 - **[National Treasury — Siconfi/Finbra Public Finance Data](https://www.tesourotransparente.gov.br/consultas/consultas-siconfi/siconfi-finbra-demonstrativos-de-contas-anuais)**
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
-
 <img
+  id="brazil-gif"
   src="{{ '/Look%20Wow%20Sticker%20by%20UBERcut.gif' | relative_url }}"
   alt="Look Wow!"
   style="display: block; width: 180px; max-width: 30%; height: auto; margin: 16px auto 0; transform: translateX(-150px);">
+
+<script>
+(function () {
+  const gifs = [
+    {
+      src: "{{ '/Look%20Wow%20Sticker%20by%20UBERcut.gif' | relative_url }}",
+      alt: "Look Wow!"
+    },
+    {
+      src: "{{ '/Clap%20Wow%20GIF%20by%20nounish.gif' | relative_url }}",
+      alt: "Clap Wow!"
+    },
+    {
+      src: "{{ '/Great%20Job%20GIF%20by%20MOODMAN.gif' | relative_url }}",
+      alt: "Great Job!"
+    }
+  ];
+
+  const imagem = document.getElementById("brazil-gif");
+  let atual = 0;
+
+  setInterval(function () {
+    atual = (atual + 1) % gifs.length;
+    imagem.src = gifs[atual].src;
+    imagem.alt = gifs[atual].alt;
+  }, 10000);
+})();
+</script>
   
 </div>
 
