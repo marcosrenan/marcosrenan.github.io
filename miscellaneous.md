@@ -69,7 +69,7 @@ minimal: false
   margin: 8px auto 0;
   transform: translateX(-150px);
   transform-origin: center;
-  animation: abduzir-wow 10s ease-in-out 5s infinite;
+  animation: abduzir-wow 7s ease-in-out 5s infinite;
 }
 
 @keyframes abduzir-wow {
