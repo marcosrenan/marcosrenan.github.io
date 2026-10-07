@@ -131,9 +131,9 @@ minimal: false
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
 <img
-  src="{{ '/Great%20Job%20GIF%20by%20MOODMAN.gif' | relative_url }}"
+  src="{{ '/Look20%Wow20%Sticker20%by20%UBERcut.gif' | relative_url }}"
   alt="Great job!"
-  style="display: block; width: 220px; max-width: 50%; height: auto; margin: 16px auto 0;">
+  style="display: block; width: 250px; max-width: 50%; height: auto; margin: 16px auto 0;">
   
 </div>
 
