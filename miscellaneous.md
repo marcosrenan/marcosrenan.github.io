@@ -132,10 +132,21 @@ minimal: false
 - **[Ministry of Labour and Employment — RAIS and Caged Microdata](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/microdados-rais-e-caged)**
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
+<style>
+@keyframes girar-wow {
+  from {
+    transform: translateX(-150px) rotate(0deg);
+  }
+  to {
+    transform: translateX(-150px) rotate(360deg);
+  }
+}
+</style>
+
 <img
   src="{{ '/Look%20Wow%20Sticker%20by%20UBERcut.gif' | relative_url }}"
   alt="Look Wow!"
-  style="display: block; width: 180px; max-width: 30%; height: auto; margin: 16px auto 0; transform: translateX(-150px);">
+  style="display: block; width: 180px; max-width: 30%; height: auto; margin: 16px auto 0; transform: translateX(-150px); transform-origin: center; animation: girar-wow 4s linear 10s infinite;">
   
 </div>
 
