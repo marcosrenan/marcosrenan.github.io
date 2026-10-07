@@ -133,7 +133,8 @@ minimal: false
 <img
   src="{{ '/Look20%Wow20%Sticker20%by20%UBERcut.gif' | relative_url }}"
   alt="Great job!"
-  style="display: block; width: 250px; max-width: 50%; height: auto; margin: 16px auto 0;">
+  style="display: block; width: 180px; max-width: 50%; height: auto; margin: 16px auto 0;
+  transform: translateX(-20px);">
   
 </div>
 
