@@ -133,7 +133,7 @@ minimal: false
 <img
   src="{{ '/Great%20Job%20GIF%20by%20MOODMAN.gif' | relative_url }}"
   alt="Great job!"
-  style="display: block; width: 240px; max-width: 75%; height: auto; margin: 16px auto 0;">
+  style="display: block; width: 220px; max-width: 50%; height: auto; margin: 16px auto 0;">
   
 </div>
 
