@@ -61,7 +61,7 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   }
 
   .welcome-title .welcome-gif {
-    width: 65px;
+    width: 70px;
   }
 
   .profile-container {
