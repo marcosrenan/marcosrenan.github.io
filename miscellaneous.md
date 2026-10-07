@@ -1,4 +1,4 @@
----
+3---
 layout: page
 show_social: true
 show_excerpts: false
@@ -142,6 +142,8 @@ minimal: false
   }
 }
 </style>
+
+<br>
 
 <img
   src="{{ '/Look%20Wow%20Sticker%20by%20UBERcut.gif' | relative_url }}"
