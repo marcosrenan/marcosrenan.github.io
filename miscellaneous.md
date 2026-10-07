@@ -82,6 +82,8 @@ minimal: false
 - **Political discussion and prospects for Ceará's economy in 2022 ([part 1](https://www.youtube.com/watch?v=FzPCGlbW86Y), [part 2](https://www.youtube.com/watch?v=Y_YWHRL4VtI))**, interview for Jornal Alerta Geral on January 3, 2022 (in Portuguese)
 - **[Socioeconomic Status of Ceará's Municipalities](https://drive.google.com/file/d/14SSRc5Z1_rBrWd36bEras8XVghFOsyzQ/view?usp=sharing)**, presented to Podemos Political Party on November 20, 2019 (in Portuguese)
 
+---
+
 <div class="section-heading">
 <h2>Nice Databases</h2><span class="section-description">: A selection of useful data sources for research and exploration.</span>
 </div>
@@ -170,6 +172,11 @@ minimal: false
 - **[Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)**
 - **[QuantEcon — Quantitative Economics with Python and Julia](https://quantecon.org)**
 - **[The Effect — Research Design and Causality](https://theeffectbook.net/)**
+
+<img
+  src="{{ '/Clap%20Wow%20GIF%20by%20nounish.gif' | relative_url }}"
+  alt="Wow! Applause!"
+  style="display: block; width: 180px; max-width: 30%; height: auto; margin: 16px auto 0; transform: translateX(-150px);">
 
 </div>
 
