@@ -8,18 +8,22 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 **Research Interests**: Macroeconomics, Public Economics, Health Economics
 
 <style>
-/* GIF à direita do título */
-.welcome-title {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
+/* Título */
 .welcome-title {
   display: flex;
   align-items: center;
   gap: 14px;
   font-size: 1.8rem;
+}
+
+/* Tamanho do GIF no computador */
+.welcome-title .welcome-gif {
+  display: block;
+  width: 110px;
+  max-width: 25%;
+  height: auto;
+  margin: 0;
+  flex-shrink: 0;
 }
 
 .profile-container {
@@ -60,8 +64,9 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
     gap: 8px;
   }
 
+  /* Tamanho do GIF no celular */
   .welcome-title .welcome-gif {
-    width: 70px;
+    width: 80px;
   }
 
   .profile-container {
