@@ -204,7 +204,7 @@ minimal: false
 <img
   src="{{ '/Clap%20Wow%20GIF%20by%20nounish.gif' | relative_url }}"
   alt="Wow! Applause!"
-  style="display: block; width: 180px; max-width: 30%; height: auto; margin: 16px auto 0; transform: translateX(-150px);">
+  style="display: block; width: 180px; max-width: 30%; height: auto; margin: 16px auto 0; transform: translateX(-120px);">
 
 </div>
 
