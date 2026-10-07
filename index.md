@@ -10,8 +10,8 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 <style>
 /* Título à esquerda; GIF no centro */
 .welcome-title {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 14px;
   font-size: 1.35rem;
@@ -20,9 +20,9 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 
 /* GIF centralizado */
 .welcome-title .welcome-gif {
-  grid-column: 2;
+  /* grid-column: 2; */
   display: block;
-  width: 110px;
+  width: 120px;
   max-width: 100%;
   height: auto;
   margin: 0;
@@ -68,7 +68,7 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 
   /* Tamanho do GIF no celular */
   .welcome-title .welcome-gif {
-    width: 80px;
+    width: 90px;
   }
 
   .profile-container {
