@@ -131,10 +131,9 @@ minimal: false
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
 <img
-  src="{{ '/Look20%Wow20%Sticker20%by20%UBERcut.gif' | relative_url }}"
-  alt="Great job!"
-  style="display: block; width: 180px; max-width: 50%; height: auto; margin: 16px auto 0;
-  transform: translateX(-20px);">
+  src="{{ '/Look%20Wow%20Sticker%20by%20UBERcut.gif' | relative_url }}"
+  alt="Look Wow!"
+  style="display: block; width: 180px; max-width: 75%; height: auto; margin: 16px auto 0; transform: translateX(-20px);">
   
 </div>
 
