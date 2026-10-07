@@ -32,6 +32,15 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   height: auto;
 }
 
+.welcome-gif {
+  display: block;
+  width: 140px;
+  max-width: 28%;
+  min-width: 0;
+  height: auto;
+  flex-shrink: 1;
+}
+
 .profile-photo {
   display: block;
   width: 169px;
@@ -53,6 +62,47 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
     width: 82px;
     max-width: 37%;
     margin-top: 20px;
+  }
+
+  .welcome-gif {
+    width: 90px;
+    max-width: 28%;
+  }
+
+  .profile-photo {
+    width: 120px;
+    max-width: 45%;
+  }
+}
+</style>
+
+<div class="profile-container">
+
+  <a
+    class="flag-counter"
+    href="https://info.flagcounter.com/IIUt"
+  >
+    <img
+      src="https://s01.flagcounter.com/count2/IIUt/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_15/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+      alt="Free counters!"
+      border="0"
+    >
+  </a>
+
+  <img
+    class="welcome-gif"
+    src="{{ '/Obi-Wan-sem-fundo-v3.gif' | relative_url }}"
+    alt="Obi-Wan Kenobi saying Hello there!"
+  >
+
+  <img
+    class="profile-photo"
+    src="renan2-modified.png"
+    alt="Renan"
+  >
+
+</div>
+```    margin-top: 20px;
   }
 
   .profile-photo {
