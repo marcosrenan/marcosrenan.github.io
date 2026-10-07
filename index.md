@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Welcome to my homepage!"
+title: "Welcome to my webpage!"
 ---
 
 I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experience in the areas of Applied Macroeconomics and Econometrics and I have worked with microdata from different databases, mainly with regard to the Brazilian economy. I look for simple model solutions to real world problems.
@@ -8,6 +8,22 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 **Research Interests**: Macroeconomics, Public Economics, Health Economics
 
 <style>
+/* GIF à direita do título */
+.welcome-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.welcome-title .welcome-gif {
+  display: block;
+  width: 90px;
+  max-width: 25%;
+  height: auto;
+  margin: 0;
+  flex-shrink: 0;
+}
+
 .profile-container {
   display: flex;
   flex-direction: row;
@@ -19,29 +35,11 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   box-sizing: border-box;
 }
 
-/* GIF acima do contador */
-.profile-left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 140px;
-  max-width: 45%;
-  gap: 12px;
-  flex-shrink: 0;
-}
-
-.welcome-gif {
-  display: block;
-  width: 140px;
-  max-width: 100%;
-  height: auto;
-}
-
 .flag-counter {
   display: block;
   width: 118px;
-  max-width: 100%;
-  margin: 0;
+  margin-top: 70px;
+  flex-shrink: 0;
 }
 
 .flag-counter img {
@@ -60,22 +58,22 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 
 /* Celular */
 @media screen and (max-width: 600px) {
+  .welcome-title {
+    gap: 8px;
+  }
+
+  .welcome-title .welcome-gif {
+    width: 65px;
+  }
+
   .profile-container {
     gap: 10px;
   }
 
-  .profile-left {
-    width: 90px;
-    max-width: 40%;
-    gap: 10px;
-  }
-
-  .welcome-gif {
-    width: 90px;
-  }
-
   .flag-counter {
     width: 82px;
+    max-width: 37%;
+    margin-top: 20px;
   }
 
   .profile-photo {
@@ -87,26 +85,16 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
 
 <div class="profile-container">
 
-  <div class="profile-left">
-
+  <a
+    class="flag-counter"
+    href="https://info.flagcounter.com/IIUt"
+  >
     <img
-      class="welcome-gif"
-      src="{{ '/Obi-Wan-sem-fundo-v3.gif' | relative_url }}"
-      alt="Obi-Wan Kenobi saying Hello there!"
+      src="https://s01.flagcounter.com/count2/IIUt/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_15/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+      alt="Free counters!"
+      border="0"
     >
-
-    <a
-      class="flag-counter"
-      href="https://info.flagcounter.com/IIUt"
-    >
-      <img
-        src="https://s01.flagcounter.com/count2/IIUt/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_15/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
-        alt="Free counters!"
-        border="0"
-      >
-    </a>
-
-  </div>
+  </a>
 
   <img
     class="profile-photo"
@@ -115,3 +103,36 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   >
 
 </div>
+
+<script>
+(function () {
+  function addWelcomeGif() {
+    const pageTitle = {{ page.title | jsonify }};
+
+    const heading = Array.from(document.querySelectorAll("h1"))
+      .find(function (element) {
+        return element.textContent.trim() === pageTitle;
+      });
+
+    if (!heading || heading.querySelector(".welcome-gif")) {
+      return;
+    }
+
+    heading.classList.add("welcome-title");
+
+    const gif = document.createElement("img");
+    gif.className = "welcome-gif";
+    gif.src = {{ '/Obi-Wan-sem-fundo-v3.gif' | relative_url | jsonify }};
+    gif.alt = "";
+    gif.setAttribute("aria-hidden", "true");
+
+    heading.appendChild(gif);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", addWelcomeGif);
+  } else {
+    addWelcomeGif();
+  }
+})();
+</script>
