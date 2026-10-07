@@ -102,4 +102,3 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   >
 
 </div>
-```
