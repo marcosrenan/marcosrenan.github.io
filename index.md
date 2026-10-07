@@ -15,13 +15,11 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   gap: 14px;
 }
 
-.welcome-title .welcome-gif {
-  display: block;
-  width: 90px;
-  max-width: 25%;
-  height: auto;
-  margin: 0;
-  flex-shrink: 0;
+.welcome-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.8rem;
 }
 
 .profile-container {
