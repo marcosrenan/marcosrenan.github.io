@@ -13,7 +13,7 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   display: flex;
   align-items: center;
   gap: 14px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 /* Tamanho do GIF no computador */
