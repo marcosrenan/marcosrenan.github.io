@@ -26,7 +26,7 @@ I hold a PhD in Economics from [CAEN-UFC](https://caen.ufc.br). I have experienc
   height: auto;
   margin: 0;
   opacity: 0;
-  animation: aparecer-obi-wan 2s ease-in-out 3s forwards;
+  animation: aparecer-obi-wan 2s ease-in-out 1.5s forwards;
 }
 
 @keyframes aparecer-obi-wan {
