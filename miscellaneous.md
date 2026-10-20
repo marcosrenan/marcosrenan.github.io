@@ -103,9 +103,9 @@ minimal: false
   --coffee-y: -30px; /* Quanto mais negativo, mais para cima */
   display: block;
   width: 150px;
-  max-width: 25%;
+  max-width: 15%;
   height: auto;
-  margin: 14px auto 0;
+  margin: 12px auto 0;
   transform: translate(var(--coffee-x), var(--coffee-y));
 }
 
