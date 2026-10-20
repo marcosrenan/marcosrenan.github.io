@@ -100,7 +100,7 @@ minimal: false
 .resources-page .applause-gif {
   display: block;
   width: 180px;
-  max-width: 30%;
+  max-width: 25%;
   height: auto;
   margin: 16px auto 0;
   transform: translateX(-120px);
