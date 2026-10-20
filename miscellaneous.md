@@ -61,7 +61,7 @@ minimal: false
   margin-top: 1.25em;
 }
 
-/* GIF com abdução — posição original no computador */
+/* GIF Look Wow — tamanho e posição no computador */
 .resources-page .wow-abducao {
   --wow-offset: -150px;
   display: block;
@@ -74,6 +74,7 @@ minimal: false
   animation: abduzir-wow 7s ease-in-out 5s infinite;
 }
 
+/* Animação de abdução do GIF Look Wow */
 @keyframes abduzir-wow {
   0%, 40%, 100% {
     transform: translateX(var(--wow-offset)) translateY(0) scale(1);
@@ -96,30 +97,35 @@ minimal: false
   }
 }
 
-/* GIF de aplausos — posição original no computador */
-.resources-page .applause-gif {
+/* GIF da xícara de café — tamanho e posição no computador */
+.resources-page .coffee-gif {
+  --coffee-x: -130px;
+  --coffee-y: -30px; /* Quanto mais negativo, mais para cima */
   display: block;
   width: 150px;
   max-width: 25%;
   height: auto;
   margin: 14px auto 0;
-  transform: translateX(-130px);
+  transform: translate(var(--coffee-x), var(--coffee-y));
 }
 
-/* Ajustes apenas para celular */
+/* Tamanho e posição dos GIFs no celular */
 @media screen and (max-width: 600px) {
   .resources-page .wow-abducao,
-  .resources-page .applause-gif {
+  .resources-page .coffee-gif {
     width: 110px;
     max-width: 100%;
   }
 
+  /* Centraliza horizontalmente o GIF Look Wow */
   .resources-page .wow-abducao {
     --wow-offset: 0px;
   }
 
-  .resources-page .applause-gif {
-    transform: none;
+  /* Centraliza o café e mantém o deslocamento para cima */
+  .resources-page .coffee-gif {
+    --coffee-x: 0px;
+    --coffee-y: -30px;
   }
 }
 </style>
@@ -236,9 +242,9 @@ minimal: false
 - **[The Effect — Research Design and Causality](https://theeffectbook.net/)**
 
 <img
-  class="applause-gif"
+  class="coffee-gif"
   src="{{ '/047-xicara-de-cafe-fumegante-em-pixel-art.gif' | relative_url }}"
-  alt="Wow! Applause!">
+  alt="Xícara de café fumegante em pixel art">
 
 </div>
 
