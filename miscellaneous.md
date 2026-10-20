@@ -99,11 +99,11 @@ minimal: false
 /* GIF de aplausos — posição original no computador */
 .resources-page .applause-gif {
   display: block;
-  width: 180px;
+  width: 150px;
   max-width: 25%;
   height: auto;
-  margin: 16px auto 0;
-  transform: translateX(-100px);
+  margin: 14px auto 0;
+  transform: translateX(-130px);
 }
 
 /* Ajustes apenas para celular */
