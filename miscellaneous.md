@@ -103,7 +103,7 @@ minimal: false
   max-width: 25%;
   height: auto;
   margin: 16px auto 0;
-  transform: translateX(-120px);
+  transform: translateX(-100px);
 }
 
 /* Ajustes apenas para celular */
