@@ -61,40 +61,16 @@ minimal: false
   margin-top: 1.25em;
 }
 
-/* GIF Look Wow — tamanho e posição no computador */
-.resources-page .wow-abducao {
-  --wow-offset: -150px;
+/* GIF do Homer — tamanho e posição no computador */
+.resources-page .homer-gif {
+  --homer-x: -150px;
+  --homer-y: 0px;
   display: block;
   width: 180px;
   max-width: 30%;
   height: auto;
   margin: 8px auto 0;
-  transform: translateX(var(--wow-offset));
-  transform-origin: center;
-  animation: abduzir-wow 7s ease-in-out 5s infinite;
-}
-
-/* Animação de abdução do GIF Look Wow */
-@keyframes abduzir-wow {
-  0%, 40%, 100% {
-    transform: translateX(var(--wow-offset)) translateY(0) scale(1);
-    opacity: 1;
-  }
-
-  10% {
-    transform: translateX(var(--wow-offset)) translateY(-8px) scale(1);
-    opacity: 1;
-  }
-
-  25% {
-    transform: translateX(var(--wow-offset)) translateY(-100px) scale(0.05);
-    opacity: 0;
-  }
-
-  26% {
-    transform: translateX(var(--wow-offset)) translateY(0) scale(1);
-    opacity: 0;
-  }
+  transform: translate(var(--homer-x), var(--homer-y));
 }
 
 /* GIF da xícara de café — tamanho e posição no computador */
@@ -111,15 +87,16 @@ minimal: false
 
 /* Tamanho e posição dos GIFs no celular */
 @media screen and (max-width: 600px) {
-  .resources-page .wow-abducao,
+  .resources-page .homer-gif,
   .resources-page .coffee-gif {
     width: 110px;
     max-width: 100%;
   }
 
-  /* Centraliza horizontalmente o GIF Look Wow */
-  .resources-page .wow-abducao {
-    --wow-offset: 0px;
+  /* Centraliza o Homer no celular */
+  .resources-page .homer-gif {
+    --homer-x: 0px;
+    --homer-y: 0px;
   }
 
   /* Centraliza o café e mantém o deslocamento para cima */
@@ -201,9 +178,12 @@ minimal: false
 - **[TSE — Electoral Open Data](https://dadosabertos.tse.jus.br/)**
 
 <img
-  class="wow-abducao"
-  src="{{ '/Look%20Wow%20Sticker%20by%20UBERcut.gif' | relative_url }}"
-  alt="Look Wow!">
+  class="homer-gif"
+  src="{{ '/homer-cafe-esquerda-v10.gif' | relative_url }}"
+  alt="Homer Simpson wearing glasses and drinking coffee"
+  width="480"
+  height="480"
+  decoding="async">
 
 </div>
 
