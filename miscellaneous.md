@@ -237,7 +237,7 @@ minimal: false
 
 <img
   class="applause-gif"
-  src="{{ '/Clap%20Wow%20GIF%20by%20nounish.gif' | relative_url }}"
+  src="{{ '/047-xicara-de-cafe-fumegante-em-pixel-art.gif' | relative_url }}"
   alt="Wow! Applause!">
 
 </div>
