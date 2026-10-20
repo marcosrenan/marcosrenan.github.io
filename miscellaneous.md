@@ -100,7 +100,7 @@ minimal: false
 /* GIF da xícara de café — tamanho e posição no computador */
 .resources-page .coffee-gif {
   --coffee-x: -145px;
-  --coffee-y: -20px; /* Quanto mais negativo, mais para cima */
+  --coffee-y: -25px; /* Quanto mais negativo, mais para cima */
   display: block;
   width: 150px;
   max-width: 20%;
