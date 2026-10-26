@@ -40,7 +40,7 @@ permalink: /explore_with_me/
       <details>
         <summary>About the data</summary>
         <div class="nfsp-info">
-          <p><strong>BCB series code: 5727 (SGS).</strong></p>
+          <p><strong>Brazilian Central Bank series code: 5727 (BCB-SGS).</strong></p>
           <p>Original name: <span lang="pt-BR">NFSP sem desvalorização cambial</span>.</p>
           <p>Public sector borrowing requirements <em>(Necessidade de financiamento do setor público – NFSP)</em>, excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
           <p>Frequency: monthly.<br>Latest observation: <span id="nfsp-latest">—</span>.</p>
