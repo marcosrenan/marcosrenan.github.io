@@ -40,9 +40,9 @@ permalink: /explore_with_me/
       <details>
         <summary>About the data</summary>
         <div class="nfsp-info">
-          <p><strong>Brazilian Central Bank series code: 5727 (BCB-SGS).</strong></p>
-          <p>Original name: <span lang="pt-BR">NFSP sem desvalorização cambial</span>.</p>
-          <p>Public sector borrowing requirements <em>(Necessidade de financiamento do setor público – NFSP)</em>, excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
+          <p><strong>Series code: 5727 (BCB-SGS).</strong></p>
+          <p>Original name: <span lang="pt-BR"><em>Necessidade de Financiamento do Setor Público sem desvalorização cambial (% PIB)</em></span>.</p>
+          <p>Public sector borrowing requirements (NFSP), excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
           <p>Frequency: monthly.<br>Latest observation: <span id="nfsp-latest">—</span>.</p>
           <p>Colors identify presidential terms. Temer’s band begins in September 2016, following his permanent assumption of office.</p>
           <p>Source: <a href="https://dadosabertos.bcb.gov.br/dataset/5727-nfsp-sem-desvalorizacao-cambial--pib---fluxo-acumulado-em-12-meses---resultado-nominal---total" target="_blank" rel="noopener noreferrer">Brazilian Central Brank</a>.</p>
@@ -166,7 +166,7 @@ permalink: /explore_with_me/
           itemclick: false, itemdoubleclick: false },
         annotations: [{ xref: "paper", yref: "paper", x: 0, y: 0, yshift: -66,
           xanchor: "left", yanchor: "top", showarrow: false,
-          text: `Source: BCB · SGS code ${seriesCode}. Author’s calculations.`, font: { size: 9 } }],
+          text: `Source: Brazilian Central Bank SGS code ${seriesCode}.`, font: { size: 9 } }],
         xaxis: { type: "date", range: [x0, x1], tick0: "2003-01-01",
           dtick: narrow && nextPoints.length > 180 ? "M24" : "M12", tickformat: "%Y",
           tickangle: -90, showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot", zeroline: false, fixedrange: true },
