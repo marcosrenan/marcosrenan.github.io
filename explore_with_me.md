@@ -21,7 +21,7 @@ permalink: /explore_with_me/
 
 .explore-analysis-section > .explore-analysis-heading {
   margin: 0 0 .7em;
-  font-size: 1.7em;
+  font-size: 1.2em;
   font-weight: 700;
   line-height: 1.2;
 }
