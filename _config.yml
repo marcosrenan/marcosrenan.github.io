@@ -23,7 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  - {title: "Lattes", url: "http://lattes.cnpq.br/9146944047583338"}
   - {title: "Research", file: "research.md"}
   - {title: "Miscellaneous", file: "miscellaneous.md"}
-  - {title: "Brazil’s Economy in Perspective", file: "exploring_brazilian_economy.md"}
+  - {title: "Brazilian Economy", file: "exploring_brazilian_economy.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/marcosrenan "}
