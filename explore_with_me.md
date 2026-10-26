@@ -446,8 +446,7 @@ permalink: /explore_with_me/
         title: {
           text:
             "Public sector borrowing requirements (% of GDP)" +
-            "<br><sup>Nominal balance · 12-month total" +
-            "<br>Excluding exchange rate effects</sup>",
+            "<br><sup>Nominal balance · 12-month total  · Excluding exchange rate effects</sup>",
           font: {
             size: narrow ? 12 : 14
           },
