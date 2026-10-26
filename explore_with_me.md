@@ -166,7 +166,7 @@ permalink: /explore_with_me/
           itemclick: false, itemdoubleclick: false },
         annotations: [{ xref: "paper", yref: "paper", x: 0, y: 0, yshift: -66,
           xanchor: "left", yanchor: "top", showarrow: false,
-          text: `Source: Brazilian Central Bank SGS code ${seriesCode}.`, font: { size: 9 } }],
+          text: `Source: Brazilian Central Bank (BCB) – <em>Sistema Gerenciador de Séries Temporais (SGS)</em> code ${seriesCode}.`, font: { size: 9 } }],
         xaxis: { type: "date", range: [x0, x1], tick0: "2003-01-01",
           dtick: narrow && nextPoints.length > 180 ? "M24" : "M12", tickformat: "%Y",
           tickangle: -90, showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot", zeroline: false, fixedrange: true },
