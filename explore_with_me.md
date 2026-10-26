@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Explore with me"
 lang: "en"
 permalink: /explore_with_me/
 ---
