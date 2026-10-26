@@ -45,7 +45,7 @@ permalink: /explore_with_me/
           <p>Public sector borrowing requirements <em>(Necessidade de financiamento do setor público – NFSP)</em>, excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
           <p>Frequency: monthly.<br>Latest observation: <span id="nfsp-latest">—</span>.</p>
           <p>Colors identify presidential terms. Temer’s band begins in September 2016, following his permanent assumption of office.</p>
-          <p>Source: <a href="https://dadosabertos.bcb.gov.br/dataset/5727-nfsp-sem-desvalorizacao-cambial--pib---fluxo-acumulado-em-12-meses---resultado-nominal---total" target="_blank" rel="noopener noreferrer">Central Bank of Brazil</a>. Author’s calculations.</p>
+          <p>Source: <a href="https://dadosabertos.bcb.gov.br/dataset/5727-nfsp-sem-desvalorizacao-cambial--pib---fluxo-acumulado-em-12-meses---resultado-nominal---total" target="_blank" rel="noopener noreferrer">Brazilian Central Brank</a>.</p>
         </div>
       </details>
       <button id="nfsp-png" type="button" disabled>Download PNG</button>
