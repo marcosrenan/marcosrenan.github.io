@@ -41,6 +41,7 @@ permalink: /explore_with_me/
         <summary>About the data</summary>
         <div class="nfsp-info">
           <p><strong>BCB series code: 5727 (SGS).</strong></p>
+          <p>Original name: <span lang="pt-BR">NFSP sem desvalorização cambial</span>.</p>
           <p>Public sector borrowing requirements (NFSP), excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
           <p>Frequency: monthly.<br>Latest observation: <span id="nfsp-latest">—</span>.</p>
           <p>Colors identify presidential terms. Temer’s band begins in September 2016, following his permanent assumption of office.</p>
@@ -105,10 +106,7 @@ permalink: /explore_with_me/
       if (!response.ok) throw new Error("Data unavailable.");
       return normalize(await response.json());
     } catch (error) {
-      return normalize(backup.split("|").map(pair => {
-        const [month, value] = pair.split(":");
-        return { data: `01/${month.slice(5, 7)}/${month.slice(0, 4)}`, valor: value };
-      }));
+      return null; // Keep the displayed data if the background request fails.
     } finally {
       clearTimeout(timer);
     }
@@ -118,7 +116,7 @@ permalink: /explore_with_me/
     if (window.Plotly) return;
     await new Promise((resolve, reject) => {
       const script = document.createElement("script");
-      script.src = "https://cdn.plot.ly/plotly-3.1.0.min.js";
+      script.src = "https://cdn.plot.ly/plotly-basic-3.1.0.min.js";
       script.onload = resolve;
       script.onerror = reject;
       document.head.appendChild(script);
@@ -126,48 +124,66 @@ permalink: /explore_with_me/
   }
 
   try {
-    const [points] = await Promise.all([loadData(), loadPlotly()]);
-    const x0 = points[0].date;
-    const last = new Date(points[points.length - 1].date + "T12:00:00Z");
-    const x1 = new Date(Date.UTC(last.getUTCFullYear(), last.getUTCMonth() + 1, 1)).toISOString().slice(0, 10);
-    const narrow = chart.clientWidth < 500;
-    root.querySelector("#nfsp-latest").textContent = monthLabel(points[points.length - 1].date);
-
-    const shapes = govs.filter(g => g[1] < x1 && g[2] > x0).map(g => ({
-      type: "rect", xref: "x", yref: "paper", x0: g[1] < x0 ? x0 : g[1],
-      x1: g[2] > x1 ? x1 : g[2], y0: 0, y1: 1,
-      fillcolor: g[3], opacity: .3, line: { width: 0 }, layer: "below",
-      name: g[0], showlegend: true
+    // Render saved data first; the BCB response never delays the first chart.
+    let points = normalize(backup.split("|").map(pair => {
+      const [month, value] = pair.split(":");
+      return { data: `01/${month.slice(5, 7)}/${month.slice(0, 4)}`, valor: value };
     }));
 
-    await Plotly.react(chart, [{
-      x: points.map(p => p.date), y: points.map(p => p.value),
-      customdata: points.map(p => monthLabel(p.date)),
-      type: "scatter", mode: points.length === 1 ? "markers" : "lines", showlegend: false,
-      line: { color: "#111", width: 1.8 }, marker: { color: "#111", size: 6 },
-      hovertemplate: "%{customdata}<br><b>%{y:.2f}% of GDP</b><extra></extra>"
-    }], {
-      font: { family: '"Times New Roman", Times, serif', size: narrow ? 11 : 12, color: "#222" },
-      separators: ".,", paper_bgcolor: "#fff", plot_bgcolor: "#fff",
-      title: { text: "Public sector borrowing requirements (% of GDP)<br><sup>Nominal balance · 12-month total · Excluding exchange rate effects</sup>",
-        font: { size: narrow ? 12 : 14 }, x: .5, xanchor: "center" },
-      margin: { l: 52, r: 14, t: 60, b: 90 }, showlegend: true,
-      legend: { x: .02, y: .98, bgcolor: "rgba(255,255,255,.85)", font: { size: narrow ? 10 : 11 },
-        itemclick: false, itemdoubleclick: false },
-      annotations: [{ xref: "paper", yref: "paper", x: 0, y: 0, yshift: -66,
-        xanchor: "left", yanchor: "top", showarrow: false,
-        text: `Source: BCB · SGS code ${seriesCode}. Author’s calculations.`, font: { size: 9 } }],
-      xaxis: { type: "date", range: [x0, x1], tick0: "2003-01-01",
-        dtick: narrow && points.length > 180 ? "M24" : "M12", tickformat: "%Y",
-        tickangle: -90, showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot", zeroline: false, fixedrange: true },
-      yaxis: { title: { text: "% of GDP", standoff: 8 }, rangemode: "tozero",
-        showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot",
-        zeroline: true, zerolinecolor: "#888", zerolinewidth: 1, fixedrange: true },
-      shapes, hovermode: "closest", dragmode: false
-    }, { locale: "en", responsive: true, displayModeBar: false, displaylogo: false, scrollZoom: false, doubleClick: false });
+    // Serialize redraws and exports so each file matches the displayed series.
+    let chartTask = Promise.resolve();
+    function enqueue(action) {
+      const nextTask = chartTask.then(action);
+      chartTask = nextTask.catch(() => {});
+      return nextTask;
+    }
 
-    chart.setAttribute("aria-busy", "false");
-    const period = `${points[0].date.slice(0, 7)}-${points[points.length - 1].date.slice(0, 7)}`;
+    async function render(nextPoints) {
+      const x0 = nextPoints[0].date;
+      const last = new Date(nextPoints[nextPoints.length - 1].date + "T12:00:00Z");
+      const x1 = new Date(Date.UTC(last.getUTCFullYear(), last.getUTCMonth() + 1, 1)).toISOString().slice(0, 10);
+      const narrow = chart.clientWidth < 500;
+
+      const shapes = govs.filter(g => g[1] < x1 && g[2] > x0).map(g => ({
+        type: "rect", xref: "x", yref: "paper", x0: g[1] < x0 ? x0 : g[1],
+        x1: g[2] > x1 ? x1 : g[2], y0: 0, y1: 1,
+        fillcolor: g[3], opacity: .3, line: { width: 0 }, layer: "below",
+        name: g[0], showlegend: true
+      }));
+
+      await Plotly.react(chart, [{
+        x: nextPoints.map(p => p.date), y: nextPoints.map(p => p.value),
+        customdata: nextPoints.map(p => monthLabel(p.date)),
+        type: "scatter", mode: nextPoints.length === 1 ? "markers" : "lines", showlegend: false,
+        line: { color: "#111", width: 1.8 }, marker: { color: "#111", size: 6 },
+        hovertemplate: "%{customdata}<br><b>%{y:.2f}% of GDP</b><extra></extra>"
+      }], {
+        font: { family: '"Times New Roman", Times, serif', size: narrow ? 11 : 12, color: "#222" },
+        separators: ".,", paper_bgcolor: "#fff", plot_bgcolor: "#fff",
+        title: { text: "Public sector borrowing requirements (% of GDP)<br><sup>Nominal balance · 12-month total · Excluding exchange rate effects</sup>",
+          font: { size: narrow ? 12 : 14 }, x: .5, xanchor: "center" },
+        margin: { l: 52, r: 14, t: 60, b: 90 }, showlegend: true,
+        legend: { x: .02, y: .98, bgcolor: "rgba(255,255,255,.85)", font: { size: narrow ? 10 : 11 },
+          itemclick: false, itemdoubleclick: false },
+        annotations: [{ xref: "paper", yref: "paper", x: 0, y: 0, yshift: -66,
+          xanchor: "left", yanchor: "top", showarrow: false,
+          text: `Source: BCB · SGS code ${seriesCode}. Author’s calculations.`, font: { size: 9 } }],
+        xaxis: { type: "date", range: [x0, x1], tick0: "2003-01-01",
+          dtick: narrow && nextPoints.length > 180 ? "M24" : "M12", tickformat: "%Y",
+          tickangle: -90, showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot", zeroline: false, fixedrange: true },
+        yaxis: { title: { text: "% of GDP", standoff: 8 }, rangemode: "tozero",
+          showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot",
+          zeroline: true, zerolinecolor: "#888", zerolinewidth: 1, fixedrange: true },
+        shapes, hovermode: "closest", dragmode: false
+      }, { locale: "en", responsive: true, displayModeBar: false, displaylogo: false, scrollZoom: false, doubleClick: false });
+      points = nextPoints;
+      root.querySelector("#nfsp-latest").textContent = monthLabel(points[points.length - 1].date);
+      chart.setAttribute("aria-busy", "false");
+    }
+
+    await loadPlotly();
+    await enqueue(() => render(points));
+
     ["png", "svg"].forEach(format => {
       const button = root.querySelector(`#nfsp-${format}`);
       button.disabled = false;
@@ -175,10 +191,13 @@ permalink: /explore_with_me/
         button.disabled = true;
         status.hidden = true;
         try {
-          await Plotly.downloadImage(chart, {
-            format, filename: `nfsp-${seriesCode}-${period}`,
-            width: 1000, height: 650,
-            scale: format === "png" ? 2 : 1
+          await enqueue(async () => {
+            const period = `${points[0].date.slice(0, 7)}-${points[points.length - 1].date.slice(0, 7)}`;
+            await Plotly.downloadImage(chart, {
+              format, filename: `nfsp-${seriesCode}-${period}`,
+              width: 1000, height: 650,
+              scale: format === "png" ? 2 : 1
+            });
           });
         } catch (error) {
           status.textContent = "Unable to download the figure. Please try again.";
@@ -188,6 +207,16 @@ permalink: /explore_with_me/
         }
       });
     });
+
+    // Refresh silently after the first chart is visible.
+    void loadData().then(freshPoints => {
+      if (!freshPoints) return;
+      return enqueue(async () => {
+        const unchanged = freshPoints.length === points.length && freshPoints.every((point, i) =>
+          point.date === points[i].date && point.value === points[i].value);
+        if (!unchanged) await render(freshPoints);
+      });
+    }).catch(() => {});
   } catch (error) {
     chart.setAttribute("aria-busy", "false");
     status.textContent = "Unable to load the chart. Please reload the page.";
