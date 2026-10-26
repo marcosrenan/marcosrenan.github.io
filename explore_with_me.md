@@ -163,7 +163,7 @@ permalink: /explore_with_me/
       }], {
         font: { family: '"Times New Roman", Times, serif', size: narrow ? 11 : 12, color: "#222" },
         separators: ".,", paper_bgcolor: "#fff", plot_bgcolor: "#fff",
-        title: { text: "Public sector borrowing requirements (% of GDP)<br><sup>Nominal balance · 12-month total<br>Excluding exchange rate effects</sup>",
+        title: { text: "Public sector borrowing requirements (% of GDP)<br><sup>Nominal balance · 12-month total · Excluding exchange rate effects</sup>",
           font: { size: narrow ? 12 : 14 }, x: .5, xanchor: "center" },
         margin: { l: 52, r: 14, t: 68, b: 48 }, showlegend: true,
         legend: { x: .02, y: .98, bgcolor: "rgba(255,255,255,.85)", font: { size: narrow ? 10 : 11 },
