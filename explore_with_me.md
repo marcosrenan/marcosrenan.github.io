@@ -15,9 +15,15 @@ permalink: /explore_with_me/
   box-sizing: border-box;
 }
 
-.fiscal-panel h2 {
-  margin: 0 0 .5em;
-  font-size: 1.35em;
+.explore-analysis-section {
+  margin: 0 0 2em;
+}
+
+.explore-analysis-section > .explore-analysis-heading {
+  margin: 0 0 .7em;
+  font-size: 1.7em;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .fiscal-panel .nfsp-layout {
@@ -159,8 +165,10 @@ permalink: /explore_with_me/
 }
 </style>
 
-<section lang="en" id="explore-nfsp" class="fiscal-panel" aria-labelledby="nfsp-heading">
-  <h2 id="nfsp-heading">Brazil’s fiscal trajectory</h2>
+<section lang="en" class="explore-analysis-section" aria-labelledby="fiscal-heading">
+  <h2 id="fiscal-heading" class="explore-analysis-heading">Brazil’s fiscal trajectory</h2>
+
+<section lang="en" id="explore-nfsp" class="fiscal-panel" aria-label="Public sector borrowing requirements">
 
   <div class="nfsp-layout">
     <div
@@ -235,8 +243,7 @@ permalink: /explore_with_me/
   <noscript>Enable JavaScript to view the chart.</noscript>
 </section>
 
-<section lang="en" id="explore-debt" class="fiscal-panel" aria-labelledby="debt-heading">
-  <h2 id="debt-heading">Brazil’s net public sector debt</h2>
+<section lang="en" id="explore-debt" class="fiscal-panel" aria-label="Net public sector debt">
 
   <div class="nfsp-layout">
     <div
@@ -308,6 +315,7 @@ permalink: /explore_with_me/
   </p>
 
   <noscript>Enable JavaScript to view the chart.</noscript>
+</section>
 </section>
 
 <script>
@@ -570,6 +578,7 @@ permalink: /explore_with_me/
           showlegend: true,
 
           legend: {
+            title: { text: "Presidents", font: { size: narrow ? 10 : 11 } },
             x: .02,
             y: .98,
             bgcolor: "rgba(255,255,255,.85)",
