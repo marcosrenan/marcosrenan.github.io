@@ -42,14 +42,13 @@ permalink: /explore_with_me/
         <div class="nfsp-info">
           <p><strong>BCB series code: 5727 (SGS).</strong></p>
           <p>Original name: <span lang="pt-BR">NFSP sem desvalorização cambial</span>.</p>
-          <p>Public sector borrowing requirements (NFSP), excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
+          <p>Public sector borrowing requirements <em>(Necessidade de financiamento do setor público – NFSP)</em>, excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
           <p>Frequency: monthly.<br>Latest observation: <span id="nfsp-latest">—</span>.</p>
           <p>Colors identify presidential terms. Temer’s band begins in September 2016, following his permanent assumption of office.</p>
           <p>Source: <a href="https://dadosabertos.bcb.gov.br/dataset/5727-nfsp-sem-desvalorizacao-cambial--pib---fluxo-acumulado-em-12-meses---resultado-nominal---total" target="_blank" rel="noopener noreferrer">Central Bank of Brazil</a>. Author’s calculations.</p>
         </div>
       </details>
       <button id="nfsp-png" type="button" disabled>Download PNG</button>
-      <button id="nfsp-svg" type="button" disabled>Download SVG</button>
     </div>
   </div>
   <div id="nfsp-chart" class="nfsp-chart" aria-label="Public sector borrowing requirements as a percentage of GDP" aria-busy="true"></div>
@@ -184,7 +183,7 @@ permalink: /explore_with_me/
     await loadPlotly();
     await enqueue(() => render(points));
 
-    ["png", "svg"].forEach(format => {
+    ["png"].forEach(format => {
       const button = root.querySelector(`#nfsp-${format}`);
       button.disabled = false;
       button.addEventListener("click", async () => {
