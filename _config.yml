@@ -22,8 +22,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "CV", url: "https://drive.google.com/file/d/1uTMwxMzEzY0830TgxzzLcjF966CJemz9/view?usp=sharing"}
 #  - {title: "Lattes", url: "http://lattes.cnpq.br/9146944047583338"}
   - {title: "Research", file: "research.md"}
-  - {title: "Exploring Brazilian Economy", file: "explore_with_me.md"}
   - {title: "Miscellaneous", file: "miscellaneous.md"}
+  - {title: "Exploring Brazilian Economy", file: "explore_with_me.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/marcosrenan "}
