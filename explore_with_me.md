@@ -8,9 +8,10 @@ permalink: /explore_with_me/
 <style>
 #explore-nfsp { font-size: .85em; line-height: 1.5; }
 #explore-nfsp * { box-sizing: border-box; }
-#explore-nfsp .nfsp-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .7em; }
-#explore-nfsp h2 { margin: 0; font-size: 1.35em; }
-#explore-nfsp .nfsp-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .5em; font-size: .85em; }
+#explore-nfsp h2 { margin: 0 0 .5em; font-size: 1.35em; }
+#explore-nfsp .nfsp-layout { display: grid; grid-template-columns: minmax(0, 1fr) 160px; gap: 16px; align-items: start; }
+#explore-nfsp .nfsp-chart { width: 100%; min-width: 0; height: 400px; }
+#explore-nfsp .nfsp-sidebar { display: flex; flex-direction: column; align-items: flex-start; gap: .8em; min-width: 0; padding-top: 65px; font-size: .85em; }
 #explore-nfsp button, #explore-nfsp summary { display: inline-block; font: inherit; color: #333; background: #fff; border: 1px solid #bbb; border-radius: 4px; padding: .4em .65em; cursor: pointer; }
 #explore-nfsp button:hover, #explore-nfsp summary:hover { background: #f3f3f3; }
 #explore-nfsp button:disabled { opacity: .5; cursor: wait; }
@@ -23,20 +24,24 @@ permalink: /explore_with_me/
 #explore-nfsp .nfsp-info { position: absolute; z-index: 10; top: calc(100% + 8px); right: 0; width: min(300px, calc(100vw - 48px)); padding: 1em; background: #fff; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 14px #0002; }
 #explore-nfsp .nfsp-info p { margin: 0 0 .7em; }
 #explore-nfsp .nfsp-info p:last-child { margin: 0; }
-#explore-nfsp .nfsp-chart { width: 100%; height: 440px; margin-top: .6em; }
+#explore-nfsp .nfsp-source { margin: .2em 0 0; color: #555; font-size: .95em; line-height: 1.45; }
 #explore-nfsp .nfsp-status { font-size: .85em; color: #555; }
 #explore-nfsp .nfsp-status[hidden] { display: none; }
 @media (max-width: 600px) {
   #explore-nfsp { font-size: .8em; }
-  #explore-nfsp .nfsp-chart { height: 400px; }
+  #explore-nfsp .nfsp-layout { grid-template-columns: minmax(0, 1fr); gap: .5em; }
+  #explore-nfsp .nfsp-chart { height: 360px; }
+  #explore-nfsp .nfsp-sidebar { flex-direction: row; flex-wrap: wrap; align-items: center; padding-top: 0; }
+  #explore-nfsp .nfsp-source { flex-basis: 100%; }
   #explore-nfsp .nfsp-info { left: 0; right: auto; }
 }
 </style>
 
 <section lang="en" id="explore-nfsp" aria-labelledby="nfsp-heading">
-  <div class="nfsp-header">
-    <h2 id="nfsp-heading">Brazil’s fiscal trajectory</h2>
-    <div class="nfsp-actions">
+  <h2 id="nfsp-heading">Brazil’s fiscal trajectory</h2>
+  <div class="nfsp-layout">
+    <div id="nfsp-chart" class="nfsp-chart" aria-label="Public sector borrowing requirements as a percentage of GDP" aria-busy="true"></div>
+    <aside class="nfsp-sidebar" aria-label="Chart information and download">
       <details>
         <summary>About the data</summary>
         <div class="nfsp-info">
@@ -45,13 +50,12 @@ permalink: /explore_with_me/
           <p>Public sector borrowing requirements (NFSP), excluding exchange rate effects: the consolidated public sector’s nominal balance, as a rolling 12-month total (% of GDP).</p>
           <p>Frequency: monthly.<br>Latest observation: <span id="nfsp-latest">—</span>.</p>
           <p>Colors identify presidential terms. Temer’s band begins in September 2016, following his permanent assumption of office.</p>
-          <p>Source: <a href="https://dadosabertos.bcb.gov.br/dataset/5727-nfsp-sem-desvalorizacao-cambial--pib---fluxo-acumulado-em-12-meses---resultado-nominal---total" target="_blank" rel="noopener noreferrer">Brazilian Central Brank</a>.</p>
         </div>
       </details>
       <button id="nfsp-png" type="button" disabled>Download PNG</button>
-    </div>
+      <p class="nfsp-source">Source: <a href="https://dadosabertos.bcb.gov.br/dataset/5727-nfsp-sem-desvalorizacao-cambial--pib---fluxo-acumulado-em-12-meses---resultado-nominal---total" target="_blank" rel="noopener noreferrer">Brazilian Central Bank (BCB)</a> – <em lang="pt-BR">Sistema Gerenciador de Séries Temporais (SGS)</em>, code <strong>5727</strong>.</p>
+    </aside>
   </div>
-  <div id="nfsp-chart" class="nfsp-chart" aria-label="Public sector borrowing requirements as a percentage of GDP" aria-busy="true"></div>
   <p id="nfsp-status" class="nfsp-status" role="status" aria-live="polite" hidden></p>
   <noscript>Enable JavaScript to view the chart.</noscript>
 </section>
@@ -159,14 +163,12 @@ permalink: /explore_with_me/
       }], {
         font: { family: '"Times New Roman", Times, serif', size: narrow ? 11 : 12, color: "#222" },
         separators: ".,", paper_bgcolor: "#fff", plot_bgcolor: "#fff",
-        title: { text: "Public sector borrowing requirements (% of GDP) - Nominal balance · 12-month total · Excluding exchange rate effects",
+        title: { text: "Public sector borrowing requirements (% of GDP)<br><sup>Nominal balance · 12-month total<br>Excluding exchange rate effects</sup>",
           font: { size: narrow ? 12 : 14 }, x: .5, xanchor: "center" },
-        margin: { l: 52, r: 14, t: 60, b: 90 }, showlegend: true,
+        margin: { l: 52, r: 14, t: 68, b: 48 }, showlegend: true,
         legend: { x: .02, y: .98, bgcolor: "rgba(255,255,255,.85)", font: { size: narrow ? 10 : 11 },
           itemclick: false, itemdoubleclick: false },
-        annotations: [{ xref: "paper", yref: "paper", x: 0, y: 0, yshift: -66,
-          xanchor: "left", yanchor: "top", showarrow: false,
-          text: `Source: Brazilian Central Bank (BCB) – <em>Sistema Gerenciador de Séries Temporais (SGS)</em>, code ${seriesCode}.`, font: { size: 9 } }],
+        annotations: [],
         xaxis: { type: "date", range: [x0, x1], tick0: "2003-01-01",
           dtick: narrow && nextPoints.length > 180 ? "M24" : "M12", tickformat: "%Y",
           tickangle: -90, showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot", zeroline: false, fixedrange: true },
@@ -192,10 +194,26 @@ permalink: /explore_with_me/
         try {
           await enqueue(async () => {
             const period = `${points[0].date.slice(0, 7)}-${points[points.length - 1].date.slice(0, 7)}`;
-            await Plotly.downloadImage(chart, {
+            // Keep the source in the exported figure without a footer on the page.
+            const figure = {
+              data: chart.data,
+              layout: {
+                ...chart.layout,
+                width: 1000, height: 650, autosize: false,
+                title: { ...chart.layout.title,
+                  text: "Public sector borrowing requirements (% of GDP)<br><sup>Nominal balance · 12-month total · Excluding exchange rate effects</sup>",
+                  font: { size: 14 } },
+                margin: { l: 52, r: 14, t: 60, b: 90 },
+                annotations: [{ xref: "paper", yref: "paper", x: 0, y: 0, yshift: -66,
+                  xanchor: "left", yanchor: "top", showarrow: false,
+                  text: `Source: Brazilian Central Bank (BCB) – <i>Sistema Gerenciador de Séries Temporais (SGS)</i>, code ${seriesCode}.`,
+                  font: { size: 9 } }]
+              },
+              config: { locale: "en" }
+            };
+            await Plotly.downloadImage(figure, {
               format, filename: `nfsp-${seriesCode}-${period}`,
-              width: 1000, height: 650,
-              scale: format === "png" ? 2 : 1
+              width: 1000, height: 650, scale: 2
             });
           });
         } catch (error) {
