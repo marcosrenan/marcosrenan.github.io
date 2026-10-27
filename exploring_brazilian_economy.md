@@ -773,7 +773,7 @@ permalink: /explore_with_me/
     <div id="panel-fig3b" class="macro-panel" role="group" aria-label="BNDES lending by sector, BRL (current)">
       <div class="macro-layout">
         <div class="macro-figure">
-          <h3 id="title-fig3b" class="macro-plot-title">BNDES lending by sector, BRL (current)</h3>
+          <h3 id="title-fig3b" class="macro-plot-title">BNDES lending by sector, BRL (current – <u>not deflated</u>)</h3>
           <div class="macro-canvas">
             <div id="chart-fig3b" class="macro-chart" aria-labelledby="title-fig3b" aria-busy="true"></div>
             <div id="presidents-fig3b" class="macro-presidents" role="group" aria-label="Presidents" hidden>
