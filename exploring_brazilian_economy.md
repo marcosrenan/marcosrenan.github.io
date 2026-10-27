@@ -575,7 +575,7 @@ permalink: /exploring_brazilian_economy/
           IPCA, Selic and inflation target
         </h3>
         <p class="macro-plot-title" style="margin: 0 0 16px; font-size: 11px; line-height: 1.35; color: #555;">
-          Selic is Brazil’s benchmark Interest Rate, which influences other interest rates across the economy.
+          Selic is Brazil’s benchmark interest rate, which influences other interest rates across the economy.
         </p>
           <div class="macro-canvas">
             <div id="chart-fig2a" class="macro-chart" aria-labelledby="title-fig2a" aria-busy="true"></div>
