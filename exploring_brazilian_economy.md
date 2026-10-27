@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: "en"
-permalink: /explore_with_me/
+permalink: /exploring_brazilian_economy/
 ---
 
 <style>
