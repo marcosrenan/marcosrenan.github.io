@@ -737,7 +737,7 @@ permalink: /exploring_brazilian_economy/
 
   <section id="section-credit-bndes" class="macro-section" aria-labelledby="heading-credit-bndes">
     <h2 id="heading-credit-bndes" class="macro-heading">Credit and BNDES</h2>
-    <p class="macro-section-intro">BNDES (Brazilian Development Bank) is Brazil’s federal public development bank.</p>
+    <p class="macro-section-intro">BNDES is Brazil’s federal development bank.</p>
     <div id="panel-fig3a" class="macro-panel" role="group" aria-label="Credit and BNDES lending (% of GDP)">
       <div class="macro-layout">
         <div class="macro-figure">
