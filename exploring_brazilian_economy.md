@@ -813,6 +813,7 @@ permalink: /explore_with_me/
       <div class="macro-layout">
         <div class="macro-figure">
           <h3 id="title-fig3c" class="macro-plot-title">Loan delinquency rates (% of credit portfolio)</h3>
+          <p class="macro-section-intro">The delinquency rates shown here refer to the credit portfolio of Brazil’s financial system as a whole, not specifically to BNDES’s portfolio.</p>
           <div class="macro-canvas">
             <div id="chart-fig3c" class="macro-chart" aria-labelledby="title-fig3c" aria-busy="true"></div>
             <div id="presidents-fig3c" class="macro-presidents" role="group" aria-label="Presidents" hidden>
