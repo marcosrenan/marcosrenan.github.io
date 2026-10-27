@@ -582,8 +582,7 @@ permalink: /exploring_brazilian_economy/
       </a>
     </nav>
   </div>
-  <p class="macro-update-note"><strong>Automatic monthly updates</strong> on your first visit in each cycle, starting on the 20th, using the latest available Central Bank of Brazil (BCB) data.</p>
-
+<p class="macro-update-note"><strong>Automatic monthly updates</strong> from the 20th, using the latest BCB data.</p>
   <section id="section-gdp" class="macro-section" aria-labelledby="heading-gdp">
     <h2 id="heading-gdp" class="macro-heading">GDP, activity and income</h2>
     <div id="panel-fig1a" class="macro-panel" role="group" aria-label="GDP and GDP per capita, USD (current)">
