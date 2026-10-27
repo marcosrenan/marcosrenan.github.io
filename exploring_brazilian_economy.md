@@ -1097,7 +1097,7 @@ permalink: /explore_with_me/
             <div class="macro-info">
             <p class="macro-series"><strong>Unemployment rate</strong><br><span class="macro-original" lang="pt-BR"><em>Taxa de desocupação – PNADC</em></span><br>SGS: <a href="https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.do?method=consultarMetadadosSeriesInternet&amp;hdOidSerieSelecionada=24369" target="_blank" rel="noopener noreferrer"><strong>24369</strong></a>.<br>Frequency: monthly.</p>
             <p>This is the published PNADC moving-quarter unemployment rate; no additional moving average is applied.</p>
-            <p>The first available observation is March 2012; January and February are not filled.</p>
+            <p>The first available observation is March 2012.</p>
               <p><strong>Latest observation</strong></p>
               <div id="latest-fig6b" class="macro-latest" aria-live="polite">—</div>
             </div>
