@@ -585,7 +585,7 @@ permalink: /exploring_brazilian_economy/
     <nav class="macro-nav" aria-labelledby="macro-contents-label">
       <a href="#section-gdp">
         <span class="macro-nav-number" aria-hidden="true">01</span>
-        <span class="macro-nav-copy"><strong>GDP, activity &amp; income</strong><span>Output, consumption and real income</span></span>
+        <span class="macro-nav-copy"><strong>GDP, activity &amp; income</strong><span>Output, consumption, investment and income</span></span>
       </a>
       <a href="#section-monetary-fiscal">
         <span class="macro-nav-number" aria-hidden="true">02</span>
