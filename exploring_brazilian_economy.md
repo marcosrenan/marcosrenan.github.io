@@ -1141,7 +1141,6 @@ permalink: /exploring_brazilian_economy/
         <div class="macro-plot-header">
           <h3 id="title-fig1g" class="macro-plot-title">VII. Consumption, investment and net exports</h3>
           <p id="subtitle-fig1g" class="macro-plot-subtitle">Household and government consumption, fixed investment (left); net exports proxy (right). Indices: 2019 = 100.</p>
-          <p class="macro-plot-subtitle">Average 2019 = 100. Consumption and investment: left axis; net exports: right axis.</p>
         </div>
         <div class="macro-figure">
           <div class="macro-canvas">
@@ -1493,9 +1492,6 @@ permalink: /exploring_brazilian_economy/
         <div class="macro-plot-header">
           <h3 id="title-fig3c" class="macro-plot-title">XVI. Loan delinquency rates</h3>
           <p id="subtitle-fig3c" class="macro-plot-subtitle">Brazil’s financial system: share of credit with instalments over 90 days past due.</p>
-          <p class="macro-plot-subtitle">
-          The delinquency rates shown here refer to the credit portfolio of Brazil’s financial system as a whole, not specifically to BNDES’s portfolio.
-          </p>
         </div>
         <div class="macro-figure">
           <div class="macro-canvas">
@@ -3327,6 +3323,39 @@ function belowLegendLayout({ plot, series, ranges, width, height, margins, gover
   return { ranges, presidents, indicators, indicatorLabels, reservedFraction: 0, below: true, requiredHeight };
 }
 
+/** Calendar-year labels anchored to the last observed year, rather than the
+ * first observation's cadence. The date range and observations are unchanged.
+ */
+function generateYearTicks(start, end, finalDate, width = 520, margins = { l: 60, r: 14 }) {
+  const first = Date.parse(start), last = Date.parse(end), final = Date.parse(finalDate);
+  if (![first, last, final].every(Number.isFinite) || last <= first || final < first || final > last) {
+    throw new Error("Invalid date range for annual axis labels.");
+  }
+  const finalYear = new Date(final).getUTCFullYear();
+  const firstYear = new Date(first).getUTCFullYear();
+  const plotWidth = Math.max(1, width - (margins.l || 0) - (margins.r || 0));
+  const minimumSpacing = 18;
+  let step = width < 500 ? 4 : 2;
+  let ticks;
+  for (;;) {
+    ticks = [];
+    for (let year = finalYear; year >= firstYear; year -= step) {
+      const date = `${String(year).padStart(4, "0")}-01-01`;
+      const instant = Date.parse(date);
+      if (instant >= first && instant <= last) ticks.push({ date, year, instant });
+    }
+    // A view beginning part-way through its last observed year may contain no
+    // January anchor. Label its real final observation instead of another year.
+    if (!ticks.length) ticks.push({ date: finalDate.slice(0, 10), year: finalYear, instant: final });
+    ticks.reverse();
+    const enoughSpace = ticks.every((tick, index) => !index ||
+      (tick.instant - ticks[index - 1].instant) / (last - first) * plotWidth >= minimumSpacing);
+    if (enoughSpace || ticks.length < 2) break;
+    step *= 2;
+  }
+  return { tickvals: ticks.map(tick => tick.date), ticktext: ticks.map(tick => String(tick.year)) };
+}
+
 function figureFor(plot, series, width = 520, options = {}) {
   const narrow = width < 500;
   const mobile = options.mobile === true;
@@ -3443,8 +3472,8 @@ function figureFor(plot, series, width = 520, options = {}) {
       (plot.subtitle ? `<br><span style="font-size:11px">${wrappedTitle(resolvePriceBaseText(plot.subtitle, plot, series), width, 11)}</span>` : "") : "",
       x: margins.l / width, xanchor: "left", font: { size: narrow ? 12 : 14 } },
     height, margin: margins,
-    xaxis: { type: "date", range: [plot.start, end], tick0: plot.start,
-      dtick: narrow ? "M48" : "M24", tickformat: "%Y", tickangle: -90,
+    xaxis: { type: "date", range: [plot.start, end], tickmode: "array",
+      ...generateYearTicks(plot.start, end, finalDate, width, margins), tickformat: "%Y", tickangle: -90,
       showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot", fixedrange: true, zeroline: false },
     yaxis: { title: { text: plot.axis.title, standoff: 7 }, range,
       showgrid: true, gridcolor: "rgba(0,0,0,.13)", griddash: "dot", fixedrange: true,
@@ -4390,7 +4419,7 @@ function boot() {
   }
 }
 
-export { buildSeries, figureFor, dependencies, axisBounds, monthlyFromYTD, rolling, chooseLegendPlacement,
+export { generateYearTicks, buildSeries, figureFor, dependencies, axisBounds, monthlyFromYTD, rolling, chooseLegendPlacement,
   MANIFEST, SEEDS, addGaps, dateLabel, monthlyUpdateCycle, observationMonthLimit, buildExportFigure,
   isIpeaCode, parseIpeaRows, fetchIpeaSeries, cacheKey, cachedSeries, freshSeries,
   currentRaw, refreshedCycles, requestPromises, sourceVersions, fetchIpeaVersion, resolvedPriceBase, resolvePriceBaseText,
