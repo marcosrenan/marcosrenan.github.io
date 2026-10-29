@@ -670,10 +670,10 @@ permalink: /exploring_brazilian_economy/
   margin: 0;
 }
 
-/* Section groups flow down columns, avoiding empty cells below short lists. */
+/* Read section groups across rows: 01–03, 04–06, then 07–09. */
 #macro-dashboard .macro-contents {
-  margin-bottom: 14px;
-  padding: 10px 12px;
+  margin-bottom: 12px;
+  padding: 8px 10px;
 }
 #macro-dashboard .macro-contents-label {
   display: list-item;
@@ -684,29 +684,35 @@ permalink: /exploring_brazilian_economy/
   line-height: 1.4;
 }
 #macro-dashboard .macro-contents[open] > .macro-contents-label {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 #macro-dashboard .macro-nav {
-  display: block;
-  columns: 3;
-  column-gap: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: row;
+  align-items: start;
+  gap: 8px 14px;
+  columns: auto;
   margin: 0;
-  font-size: 12px;
+  font-size: 11px;
 }
 #macro-dashboard .macro-toc-section {
-  display: inline-block;
-  width: 100%;
-  margin: 0 0 10px;
-  break-inside: avoid;
-  vertical-align: top;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-content: start;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  gap: 2px;
 }
 #macro-dashboard .macro-nav .macro-toc-heading {
   display: grid;
-  grid-template-columns: 20px minmax(0, 1fr);
+  grid-template-columns: 18px minmax(0, 1fr);
   align-items: start;
-  gap: 5px;
-  margin: 0 0 3px;
-  padding: 2px 0;
+  gap: 4px;
+  min-height: 2.6em;
+  margin: 0;
+  padding: 0;
   border: 0;
   font-size: 12px;
   line-height: 1.3;
@@ -720,8 +726,10 @@ permalink: /exploring_brazilian_economy/
   font-size: 11px;
 }
 #macro-dashboard .macro-toc-plots {
+  align-self: start;
+  min-width: 0;
   margin: 0;
-  padding: 0 0 0 25px;
+  padding: 0;
   list-style: none;
 }
 #macro-dashboard .macro-toc-plots > li {
@@ -730,18 +738,19 @@ permalink: /exploring_brazilian_economy/
 }
 #macro-dashboard .macro-nav .macro-toc-plot {
   display: grid;
-  grid-template-columns: 52px minmax(0, 1fr);
+  grid-template-columns: 47px minmax(0, 1fr);
   align-items: baseline;
-  gap: 4px;
+  gap: 3px;
   margin: 0;
-  padding: 3px 0;
+  padding: 1px 0;
   border: 0;
-  font-size: 12px;
-  line-height: 1.3;
+  font-size: 11px;
+  line-height: 1.25;
 }
 #macro-dashboard .macro-toc-roman {
   color: #666;
   font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -751,9 +760,37 @@ permalink: /exploring_brazilian_economy/
   text-underline-offset: 2px;
 }
 
-@media (max-width: 840px) {
-  #macro-dashboard .macro-nav { columns: 2; }
+/* Sharing the heading track aligns the first chart in every section of a row,
+   including when a longer section heading wraps onto an additional line. */
+@supports (grid-template-rows: subgrid) {
+  #macro-dashboard .macro-nav {
+    row-gap: 6px;
+  }
+  #macro-dashboard .macro-toc-section {
+    grid-row: span 2;
+    grid-template-rows: subgrid;
+  }
+  #macro-dashboard .macro-nav .macro-toc-heading {
+    min-height: 0;
+  }
 }
+@media (max-width: 840px) {
+  #macro-dashboard .macro-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  #macro-dashboard .macro-nav {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  #macro-dashboard .macro-nav .macro-toc-heading {
+    min-height: 0;
+  }
+  #macro-dashboard .macro-contents {
+    padding: 8px 10px;
+  }
+}
+
 @media (max-width: 600px) {
   #macro-dashboard .macro-layout {
     grid-template-columns: minmax(0, 1fr);
@@ -785,11 +822,6 @@ permalink: /exploring_brazilian_economy/
     font-size: 12px;
     line-height: 20px;
   }
-}
-@media (max-width: 560px) {
-  #macro-dashboard .macro-nav { columns: 1; }
-  #macro-dashboard .macro-toc-section { margin-bottom: 7px; }
-  #macro-dashboard .macro-contents { padding: 9px 11px; }
 }
 
 </style>
