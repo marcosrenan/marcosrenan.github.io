@@ -750,7 +750,7 @@ permalink: /exploring_brazilian_economy/
 #macro-dashboard .macro-toc-roman {
   color: #666;
   font-family: "Times New Roman", Times, serif;
-  font-size: 10px;
+  font-size: 9px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -760,10 +760,6 @@ permalink: /exploring_brazilian_economy/
   text-underline-offset: 2px;
 }
 #macro-dashboard .macro-nav .macro-toc-plot > span:last-child {
-  font-size: 10px !important;
-}
-#macro-dashboard .macro-toc-plot,
-#macro-dashboard .macro-toc-plot span {
   font-size: 9px !important;
 }
   
