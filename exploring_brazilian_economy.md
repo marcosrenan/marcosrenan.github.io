@@ -762,6 +762,10 @@ permalink: /exploring_brazilian_economy/
 #macro-dashboard .macro-nav .macro-toc-plot > span:last-child {
   font-size: 10px !important;
 }
+#macro-dashboard .macro-toc-plot,
+#macro-dashboard .macro-toc-plot span {
+  font-size: 9px !important;
+}
   
 /* Sharing the heading track aligns the first chart in every section of a row,
    including when a longer section heading wraps onto an additional line. */
