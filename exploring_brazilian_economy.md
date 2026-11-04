@@ -660,7 +660,7 @@ permalink: /exploring_brazilian_economy/
 #macro-dashboard .macro-sidebar {
   gap: 8px;
   padding-top: var(--macro-plot-top, 8px);
-  font-size: 12px;
+  font-size: 11px;
 }
 #macro-dashboard .macro-source {
   font-size: 11px;
@@ -714,7 +714,7 @@ permalink: /exploring_brazilian_economy/
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.3;
 }
 #macro-dashboard .macro-toc-heading strong {
@@ -744,13 +744,13 @@ permalink: /exploring_brazilian_economy/
   margin: 0;
   padding: 1px 0;
   border: 0;
-  font-size: 9.5px;
+  font-size: 9.15px;
   line-height: 1.25;
 }
 #macro-dashboard .macro-toc-roman {
   color: #666;
   font-family: "Times New Roman", Times, serif;
-  font-size: 9.5px;
+  font-size: 9.15px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -760,7 +760,7 @@ permalink: /exploring_brazilian_economy/
   text-underline-offset: 2px;
 }
 #macro-dashboard .macro-nav .macro-toc-plot > span:last-child {
-  font-size: 9.5px !important;
+  font-size: 9.15px !important;
 }
   
 /* Sharing the heading track aligns the first chart in every section of a row,
