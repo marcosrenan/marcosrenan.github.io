@@ -859,7 +859,7 @@ permalink: /exploring_brazilian_economy/
 
 
 /* Municipal figures retain the same heading, sidebar and compact controls. */
-#macro-dashboard .macro-map-panel .macro-layout {grid-template-columns:minmax(0,520px) 160px;max-width:692px;}
+#macro-dashboard .macro-map-panel .macro-layout,#macro-dashboard .macro-pyramid-panel .macro-layout {grid-template-columns:minmax(0,520px) 160px;max-width:692px;}
 #macro-dashboard .macro-map-chart {width:100%;min-width:0;min-height:var(--macro-map-min-height,220px);touch-action:pan-y;}
 #macro-dashboard .macro-map-chart svg {display:block;width:100%;height:auto;}
 #macro-dashboard .macro-map-chart [data-municipality] {cursor:pointer;}
@@ -871,7 +871,7 @@ permalink: /exploring_brazilian_economy/
 #macro-dashboard .macro-map-reference {margin:0;font-size:11px;line-height:1.35;}
 #macro-dashboard .macro-map-announcement {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
 @media(max-width:600px){
-  #macro-dashboard .macro-map-panel .macro-layout {grid-template-columns:minmax(0,1fr);max-width:none;}
+  #macro-dashboard .macro-map-panel .macro-layout,#macro-dashboard .macro-pyramid-panel .macro-layout {grid-template-columns:minmax(0,1fr);max-width:none;}
   #macro-dashboard .macro-map-control {flex-direction:row;align-items:center;gap:6px;}
   #macro-dashboard .macro-map-control select {min-height:44px;width:180px;font-size:16px;padding:6px;}
   #macro-dashboard .macro-map-panel .macro-plot-title,#macro-dashboard .macro-map-panel .macro-plot-subtitle {padding-left:8px;padding-right:8px;}
