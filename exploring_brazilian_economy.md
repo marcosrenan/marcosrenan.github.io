@@ -744,13 +744,13 @@ permalink: /exploring_brazilian_economy/
   margin: 0;
   padding: 1px 0;
   border: 0;
-  font-size: 9.25px;
+  font-size: 9.5px;
   line-height: 1.25;
 }
 #macro-dashboard .macro-toc-roman {
   color: #666;
   font-family: "Times New Roman", Times, serif;
-  font-size: 9.25px;
+  font-size: 9.5px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -760,7 +760,7 @@ permalink: /exploring_brazilian_economy/
   text-underline-offset: 2px;
 }
 #macro-dashboard .macro-nav .macro-toc-plot > span:last-child {
-  font-size: 9.25px !important;
+  font-size: 9.5px !important;
 }
   
 /* Sharing the heading track aligns the first chart in every section of a row,
