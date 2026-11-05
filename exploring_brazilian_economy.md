@@ -708,7 +708,7 @@ permalink: /exploring_brazilian_economy/
 #macro-dashboard .macro-nav .macro-toc-heading {
   display: grid;
   grid-template-columns: 18px minmax(0, 1fr);
-  align-items: center;
+  align-items: first baseline;
   gap: 4px;
   min-height: 2.6em;
   margin: 0;
@@ -725,7 +725,7 @@ permalink: /exploring_brazilian_economy/
   padding: 0;
   font-size: 11px;
   justify-self: center;
-  align-self: center;
+  align-self: first baseline;
   text-align: center;
 }
 #macro-dashboard .macro-toc-plots {
@@ -756,8 +756,8 @@ permalink: /exploring_brazilian_economy/
   font-size: 9.5px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  justify-self: center;
-  text-align: center;
+  justify-self: start;
+  text-align: left;
 }
 #macro-dashboard .macro-nav .macro-toc-plot:hover > span:last-child,
 #macro-dashboard .macro-nav .macro-toc-heading:hover strong {
