@@ -4719,7 +4719,7 @@ function dashboardLanguage() {
     const saved = window.localStorage.getItem(DASHBOARD_LANGUAGE_KEY);
     if (saved === "en" || saved === "pt-BR") return saved;
   } catch (_) {}
-  return "pt-BR";
+  return "en";
 }
 
 const DASHBOARD_LOCALE = dashboardLanguage();
